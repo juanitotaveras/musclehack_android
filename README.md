@@ -1,4 +1,4 @@
-# THT_Android_tabs
+# Musclehack Android app
 
 ## Running tests
 
