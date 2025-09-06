@@ -76,10 +76,7 @@
             android:foregroundServiceType="shortService"
             android:exported="false" />
         <receiver android:name=".workoutTracker.training.TimerFinishedReceiver"/>
-        <!-- <service -->
-        <!-- android:name="gcm.play.android.samples.com.gcmquickstart.RegistrationIntentService" -->
-        <!-- android:exported="false"/> -->
-        <!-- set default notification icon -->
+
         <meta-data
             android:name="firebase_crashlytics_collection_enabled"
             android:value="${crashlyticsEnabled}" />

@@ -9,11 +9,7 @@
 .externalNativeBuild
 keystore.jks
 keystore.properties
-gradlew.bat
-gradlew
 run_instrumentation_tests.bat
-settings.gradle
-gradle/wrapper
 google-services.json
 app/build
 projectFilesBackup.*
