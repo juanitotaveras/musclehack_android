@@ -7,12 +7,12 @@
 /build
 /captures
 .externalNativeBuild
-app/build.gradle
 keystore.jks
+keystore.properties
 gradlew.bat
 gradlew
-gradle.properties
 run_instrumentation_tests.bat
 settings.gradle
 gradle/wrapper
 google-services.json
+app/build
