@@ -16,3 +16,5 @@ settings.gradle
 gradle/wrapper
 google-services.json
 app/build
+projectFilesBackup.*
+app/release
