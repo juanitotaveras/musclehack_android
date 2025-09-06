@@ -58,24 +58,12 @@ class SimpleContentFragment : Fragment() {
         webView.settings.setSupportZoom(zoomControlsPref!!)
         webView.settings.builtInZoomControls = true
         webView.loadUrl(pageTemp)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            webView.webViewClient = object : WebViewClient() {
-                @SuppressLint("NewApi")
-                override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest)
-                        : Boolean {
-                    BrowserUtils.openUrlInChromeCustomTabs(context, request.url.toString())
-                    return true
-                }
-            }
-        } else {
-            webView.webViewClient = object : WebViewClient() {
-                @Suppress("OverridingDeprecatedMember")
-                override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
-                    if (url != null)
-                        BrowserUtils.openUrlInChromeCustomTabs(context, url)
-                    @Suppress("DEPRECATION")
-                    return super.shouldOverrideUrlLoading(view, url)
-                }
+        webView.webViewClient = object : WebViewClient() {
+            @SuppressLint("NewApi")
+            override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest)
+                    : Boolean {
+                BrowserUtils.openUrlInChromeCustomTabs(context, request.url.toString())
+                return true
             }
         }
         return result
