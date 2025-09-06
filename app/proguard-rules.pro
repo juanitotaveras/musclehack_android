@@ -15,7 +15,7 @@
 
 #-keep class Pro
 #-keepclasseswithmembernames class com.musclehack.targetedHypertrophyTraining.premium.PagerContentskeepattributes Signature
--keepclassmembers class com.musclehvack.targetedHypertrophyTraining.premium.PagerContents {*;}
+-keepclassmembers class com.musclehack.targetedHypertrophyTraining.premium.PagerContents {*;}
 -keep class com.musclehack.targetedHypertrophyTraining.premium.PagerContents {*;}
 -keepclassmembers class com.musclehack.targetedHypertrophyTraining.premium.** {<fields>;}
 -keep class com.android.vending.billing.**
