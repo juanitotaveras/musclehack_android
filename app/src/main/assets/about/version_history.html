@@ -1,0 +1,187 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css"/>
+    <style>
+        .subText {
+            margin-left: 1em;
+        }
+        .right {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" style="margin-top: .5em;">
+
+    <h3 >Version history</h3>
+    <h4 class="subText">3.1.3</h4>
+    <ul>
+        <li>
+            Updated app to be compatible with Android 13.
+        </li>
+        <li>
+            Fixed a couple of crashes and security issues associated with the OS update.
+        </li>
+        <li>
+            Newest OS version requires that the user give the app permission to post notifications.
+            Added logic to account for this new requirement.
+        </li>
+    </ul>
+    <h4 class="subText">3.0.26</h4>
+    <ul>
+        <li>
+            You can now add your own exercises to Exercise Bank.
+        </li>
+        <li>
+            Bug fixes for exercise substitution.
+        </li>
+    </ul>
+    <h4 class="subText">3.0.22</h4>
+    <ul>
+        <li>
+            Bug fixes & improvements.
+        </li>
+    </ul>
+    <h4 class="subText">3.0.17</h4>
+    <ul>
+        <li>
+            "Add new set" feature was deleting workout data.
+        </li>
+    </ul>
+    <h4 class="subText">3.0.17</h4>
+    <ul>
+        <li>
+            Added ability to make a copy of your workouts.
+        </li>
+        <li>More problems with Sony devices killing the app in the background.
+        This should help make the Timer more reliable.</li>
+    </ul>
+    <h4 class="subText">3.0.16</h4>
+    <ul>
+        <li>I didn't like the way the system was backing up the workouts.
+        I re-wrote the backup code, and so now you can backup/restore manually.</li>
+    </ul>
+    <h4 class="subText">3.0.13</h4>
+    <ul>
+        <li>Fixes for workout timer not executing in background.</li>
+    </ul>
+    <h4 class="subText">3.0.9</h4>
+    <ul>
+        <li>I fixed a bug that was happening when creating a new 3-Day full body workout.</li>
+    </ul>
+    <h4 class="subText">3.0.8</h4>
+    <ul>
+        <li>Sorry about all the recent updates! Version 3 has been a huge rewrite and so I've discovered
+        a few small bugs as I have been testing the latest release. Thanks for all your feedback everyone!</li>
+    </ul>
+    <h4 class="subText">3.0.7</h4>
+    <ul>
+        <li>One more fix for the workout tracker.</li>
+    </ul>
+    <h4 class="subText">3.0.5</h4>
+    <ul>
+        <li>Quick fix for the workout tracker.</li>
+    </ul>
+    <h4 class="subText">3.0.4</h4>
+    <ul>
+        <li>Your workouts might fail to transfer over to the newest update. Email me at musclehackdeveloper@gmail.com if you have issues.</li>
+        <li>Quick fix to the 'pause' button on the rest timer.</li>
+    </ul>
+    <h4 class="subText">3.0.2</h4>
+    <ul>
+        <li>The new Android updates broke some of the app settings. So I've temporarily removed the ability
+        to add your own rest time sound and adjust the volume.</li>
+        <li>Online backup is now handled by the operating system. Workouts are backed up in the user's
+        Google Drive account.</li>
+        <li>Replaced the 'More' tab with Exercise Bank again, and added a new side menu.</li>
+        <li>Updated the UI for all the menus, buttons, and animations.</li>
+        <li>Re-wrote all the database code so workout data is not lost.</li>
+        <li>Fixes to workout timer.</li>
+        <li>Upgraded the entire app to AndroidX to use all the newest tech.</li>
+    </ul>
+    <h4 class="subText">2.1.5</h4>
+    <ul>
+        <li>Fix to blog posts not loading.</li>
+    </ul>
+    <h4 class="subText">2.1.4</h4>
+    <ul>
+        <li>Fixed bugs with rest time notification.</li>
+        <li>Added date that previous note was recorded in the "Previous Note" feature.</li>
+        <li>Added ability to change rest time alert volume.</li>
+        <li>Fixed bug where imported rest time sound would not stop.</li>
+        <li>Fixes to push notifications.</li>
+        <li>Exercise bank now saves open categories.</li>
+    </ul>
+    <h4 class="subText">2.1.3</h4>
+    <ul>
+        <li>NEW TAB: Replaced Exercise Bank tab with More tab.</li>
+        <li>Created Testimonials section.</li>
+        <li>Updated About section.</li>
+        <li>Added new exercises to Exercise Bank and updated UI.</li>
+        <li>You can now substitute exercises on main workout tracker page.</li>
+        <li>Added ability to see previous note in Workout Tracker.</li>
+        <li>Updated some styles - buttons, colors, fonts.</li>
+    </ul>
+    <h4 class="subText">2.0.1</h4>
+    <ul>
+        <li>ONLINE BACKUP: Never lose your workouts again! Tap the dropdown menu on the home page
+            and tap "Online backup" to save your data in the cloud.</li>
+        <li>When adding a new set, you can add multiple copies of the same set.</li>
+        <li>Fixes to notifications.</li>
+        <li>Removed exercise stats from Exercise Bank (was not working as it should).</li>
+    </ul>
+    <h4 class="subText">1.22.16</h4>
+    <ul>
+        <li>Critical workout timer fix: the timer was being killed by Android OS after
+            the phone was put in standby for one minute.</li>
+        <li>Improvements to notifications shown while user is resting.</li>
+        <li>Added privacy policy to store page and to "About" section.</li>
+        <li>Storage of workout data is more efficient.</li>
+    </ul>
+    <h4 class="subText">1.22.15</h4>
+    <ul>
+        <li>Fixed bug in the Workout Tracker where the focusing on textboxes was malfunctioning.</li>
+        <li>Changed workout tracker icon.</li>
+    </ul>
+    <h4 class="subText">1.22.14</h4>
+    <ul>
+        <li>Added a few more animations and transitions between pages.</li>
+        <li>Fixed bug where it sometimes crashed when replacing an exercise.</li>
+        <li>Workout Creator is 500% more efficient in terms of memory and time.</li>
+        <li>UI for Workout Tracker has been updated - easier to add a new note and edit current notes.</li>
+        <li>Blog page is more efficient (doesn't load everything at once).</li>
+        <li>A couple more exercises added to Exercise Bank.</li>
+    </ul>
+
+    <h4 class="subText">1.22.9</h4>
+    <ul>
+        <li>A bunch of bug fixes and stability improvements.</li>
+    </ul>
+
+    <h4 class="subText">1.0</h4>
+    <ul>
+        <li>Put the app on the Google Play Store.</li>
+    </ul>
+    <hr>
+    <h4>Planned features</h4>
+    <ul>
+        <li>
+            Textbox to submit suggestions/improvements
+        </li>
+        <li>
+            Bodyfat calculator
+        </li>
+        <li>
+            Rep range calculator
+        </li>
+        <li>
+            Ability to backup workouts online
+        </li>
+        <li>
+            Improve exercise statistics
+        </li>
+    </ul>
+</div>
+</body>
+</html>

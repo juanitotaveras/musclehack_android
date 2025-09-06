@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:focusableInTouchMode="true"
+  android:id="@+id/createNewCycleLinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dip"
+      android:orientation="vertical"
+      android:paddingBottom="0dp"
+      android:paddingTop="25dip">
+
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/choose_template"/>
+
+      <RadioGroup
+        android:id="@+id/templateSelectionRadioGroup"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dip"
+        android:orientation="vertical">
+
+
+        <RadioButton
+          android:id="@+id/threeDayFullBodyRadioButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:checked="true"
+          android:text="@string/three_day_full_body_template"/>
+
+        <RadioButton
+          android:id="@+id/fiveDaySplitRadioButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:checked="false"
+          android:text="@string/five_day_split_template"/>
+
+
+        <RadioButton
+          android:id="@+id/threeDaySplitRadioButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:checked="false"
+          android:text="@string/three_day_split_template"/>
+
+        <RadioButton
+          android:id="@+id/blankCycleRadioButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:checked="false"
+          android:text="@string/blank_cycle_template"/>
+
+
+        <!--<RadioButton-->
+          <!--android:id="@+id/TSPARadioButton"-->
+          <!--android:layout_width="wrap_content"-->
+          <!--android:layout_height="wrap_content"-->
+          <!--android:text="@string/total_six_pack_abs"/>-->
+
+      </RadioGroup>
+    </LinearLayout>
+
+
+
+  </LinearLayout>

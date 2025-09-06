@@ -1,0 +1,22 @@
+{
+  "title": "About the App",
+  "items": [
+    {
+      "file": "about_juanito.html",
+      "title": "About Juanito"
+    },
+    {
+      "file": "about_mark.html",
+      "title": "About Mark"
+    },
+    {
+      "file": "version_history.html",
+      "title": "Version History"
+    },
+    {
+      "file": "privacy_policy.html",
+      "title": "Privacy Policy"
+    }
+  ]
+}
+    

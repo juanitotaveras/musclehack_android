@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" >
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.musclehack.targetedHypertrophyTraining.workoutTracker.edit.EditSetsViewModel" />
+        <variable
+            name="exerciseset"
+            type="com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseSet" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_56"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:layout_marginStart="@dimen/dp_16"
+            android:gravity="center"
+            android:text="@{exerciseset.getName()}"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/changeExerciseOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_find_replace_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="Change exercise"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_find_replace_black_24dp"
+            android:onClick="@{() -> viewmodel.onChangeExerciseClicked(exerciseset.position)}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/changeRepRangeOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_space_bar_24px"
+            android:gravity="start|center_vertical"
+            android:text="@string/change_rep_range"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_space_bar_24px"
+            android:onClick="@{() -> viewmodel.onChangeRepClicked(exerciseset.position)}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/changeRestTimeOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_timer_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/change_rest_time"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_timer_black_24dp"
+            android:onClick="@{() -> viewmodel.onChangeRestTimeClicked(exerciseset.position)}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/deleteSetOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_delete_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/delete"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:onClick="@{() -> viewmodel.onDeleteSetClicked(exerciseset.position)}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/insertSetBeforeOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_arrow_upward_24px"
+            android:gravity="start|center_vertical"
+            android:text="@string/insert_set_before"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_arrow_upward_24px"
+            android:onClick="@{() -> viewmodel.onInsertSetBeforeClicked(exerciseset.position)}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/insertSetAfterOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_arrow_downward_24px"
+            android:gravity="start|center_vertical"
+            android:text="@string/insert_set_after"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_arrow_downward_24px"
+            android:onClick="@{() -> viewmodel.onInsertSetAfterClicked(exerciseset.position)}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+</layout>

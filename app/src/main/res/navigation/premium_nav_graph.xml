@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/premium_nav_graph"
+    app:startDestination="@id/productsPagerFragment">
+
+    <fragment
+        android:id="@+id/productsPagerFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.premium.ProductsPagerFragment"
+        android:label="@string/products_title" />
+</navigation>

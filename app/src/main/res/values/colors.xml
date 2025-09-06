@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#b2292f</color>
+  <color name="colorPrimary01">#b2292f</color>
+  <color name="colorPrimaryDark">#72191d</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="colorAccent2">#b2292f</color>
+  <color name="secondaryText">#666666</color>
+  <color name="white">#FFFFFF</color>
+  <color name="justMoved">#f7f6f2</color>
+  <color name="justMoved2">#cecece</color>
+  <color name="justMovedBlue">#e1f0f2</color>
+  <color name="colorMainText">#000000</color>
+  <color name="colorSubText">#595959</color>
+  <color name="transparent">#80000000</color>
+  <color name="paleYellow">#ffffe6</color>
+  <color name="lightGrey">#f2f2f2</color>
+  <color name="black">#000000</color>
+  <color name="listBackgroundGray">#e5e5e5</color>
+  <color name="buttonBlue">#0066ff</color>
+  <color name="goGreen">#76cc1b</color>
+</resources>

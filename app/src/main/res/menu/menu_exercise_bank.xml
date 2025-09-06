@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.musclehack.targetedHypertrophyTraining.exerciseBank.ExerciseBankOverlayActivity">
+  <item
+    android:id="@+id/info"
+    android:orderInCategory="100"
+    android:title="Info"
+    android:icon="@drawable/ic_info_white_24dp"
+      app:showAsAction="ifRoom" />
+</menu>

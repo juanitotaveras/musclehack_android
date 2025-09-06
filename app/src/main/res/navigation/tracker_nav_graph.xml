@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tracker_nav_graph"
+    app:startDestination="@id/trackerHomeFragmentDest">
+    <fragment
+        android:id="@+id/tracker_workouts_fragment_dest"
+        android:name="com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts.TrackerWorkoutsFragment">
+        <action
+            android:id="@+id/action_tracker_workouts_fragment_dest_to_trainingPagerFragment"
+            app:destination="@id/trainingPagerFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+        <argument
+            android:name="cycleId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_tracker_workouts_fragment_dest_to_createNewWorkoutFragment"
+            app:destination="@id/createNewWorkoutFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackerHomeFragmentDest"
+        android:name="com.musclehack.targetedHypertrophyTraining.workoutTracker.home.TrackerHomeFragment"
+        android:label="@string/cycle_tracker_title">
+        <action
+            android:id="@+id/action_trackerHomeFragment_to_tracker_workouts_fragment_dest"
+            app:destination="@id/tracker_workouts_fragment_dest"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+        <action
+            android:id="@+id/action_trackerHomeFragment_to_createNewCycleSelectTemplateFragment"
+            app:destination="@id/createNewCycleSelectTemplateFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewCycleSelectTemplateFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.trainingCycleCreation.CreateNewCycleSelectTemplateFragment"
+        android:label="@string/create_new_cycle_activity_title">
+        <action
+            android:id="@+id/action_createNewCycleSelectTemplateFragment_to_createNewCycleDurationFragment"
+            app:destination="@id/createNewCycleDurationFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+        <action
+            android:id="@+id/action_createNewCycleSelectTemplateFragment_to_createNewCycleRepRangeFragment"
+            app:destination="@id/createNewCycleRepRangeFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewCycleDurationFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.trainingCycleCreation.CreateNewCycleDurationFragment">
+        <action
+            android:id="@+id/action_createNewCycleDurationFragment_to_createNewCycleNameFragment"
+            app:destination="@id/createNewCycleNameFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewCycleNameFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.trainingCycleCreation.CreateNewCycleNameFragment" />
+    <fragment
+        android:id="@+id/createNewCycleRepRangeFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.trainingCycleCreation.CreateNewCycleRepRangeFragment"
+        android:label="@string/create_new_cycle_activity_title">
+        <action
+            android:id="@+id/action_createNewCycleRepRangeFragment_to_createNewCycleDurationFragment"
+            app:destination="@id/createNewCycleDurationFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/trainingPagerFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.workoutTracker.training.TrainingPagerFragment"
+        tools:layout="@layout/training_pager">
+        <action
+            android:id="@+id/action_trainingPagerFragment_to_editSetsFragment"
+            app:destination="@id/editSetsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+        <argument
+            android:name="workoutId"
+            app:argType="long" />
+        <argument
+            android:name="cycleId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/editSetsFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.workoutTracker.edit.EditSetsFragment">
+        <argument
+            android:name="cycleId"
+            app:argType="long" />
+        <argument
+            android:name="workoutId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_editSetsFragment_to_createNewSetFragment"
+            app:destination="@id/createNewSetFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewSetFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.workoutTracker.edit.CreateNewSetFragment"
+        android:label="@string/create_set_activity_title">
+        <argument
+            android:name="position"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_createNewSetFragment_to_exerciseBankSelectionFragment"
+            app:destination="@id/exerciseBankSelectionFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewWorkoutFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts.CreateNewWorkoutFragment"
+        android:label="@string/title_activity_create_new_workout"
+        tools:layout="@layout/fragment_create_new_workout" />
+    <fragment
+        android:id="@+id/exerciseBankSelectionFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.exerciseBank.ExerciseBankSelectionFragment"
+        android:label="ExerciseBankSelectionFragment" />
+</navigation>

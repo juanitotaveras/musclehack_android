@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+  <item
+    android:id="@+id/socialMedia"
+    android:icon="@drawable/ic_share_white_24dp"
+      android:title="@string/social_media"
+      app:showAsAction="ifRoom|withText" />
+
+  <item
+    android:id="@+id/becomeAffiliate"
+    android:icon="@drawable/ic_more_black_24dp"
+      android:title="@string/become_an_affiliate"
+      app:showAsAction="never" />
+</menu>

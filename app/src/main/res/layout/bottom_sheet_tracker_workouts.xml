@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts.TrackerWorkoutsViewModel" />
+        <variable
+            name="workout"
+            type="com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Workout" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_56"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:layout_marginStart="@dimen/dp_16"
+            android:gravity="center"
+            android:text="@{workout.name}"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/renameWorkoutOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_edit_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/rename"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_edit_black_24dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{() -> viewmodel.onRenameWorkoutOptionSelected() }"/>
+
+        <TextView
+            android:id="@+id/deleteWorkoutOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_delete_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/delete"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="@{() -> viewmodel.onDeleteWorkoutOptionSelected() }"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+</layout>

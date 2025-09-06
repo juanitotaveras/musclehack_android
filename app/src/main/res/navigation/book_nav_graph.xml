@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/book_nav_graph"
+    app:startDestination="@id/bookPagerFragment">
+
+    <fragment
+        android:id="@+id/bookPagerFragment"
+        android:name="com.musclehack.targetedHypertrophyTraining.book.BookPagerFragment"
+        android:label="@string/training_manual_title" />
+</navigation>

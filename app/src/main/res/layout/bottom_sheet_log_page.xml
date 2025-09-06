@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="viewmodel"
+            type="com.musclehack.targetedHypertrophyTraining.workoutTracker.training.TrainingViewModel" />
+        <variable
+            name="logcardmodel"
+            type="com.musclehack.targetedHypertrophyTraining.workoutTracker.training.LogCardModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_56"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:layout_marginStart="@dimen/dp_16"
+            android:gravity="center"
+            android:text="@{logcardmodel.getExerciseNameDefaultText()}"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_book_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/see_exercise_tutorial"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_book_black_24dp"
+            android:onClick="@{() -> viewmodel.onSeeExerciseTutorialSelected()}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="@{viewmodel.getExerciseTutorialLink(logcardmodel.getExerciseName()) == null ? View.GONE : View.VISIBLE}"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_find_replace_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/substitute_exercise"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_find_replace_black_24dp"
+            android:onClick="@{() -> viewmodel.onSubstituteExerciseSelected()}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_skip_next_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/skip_exercise"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_skip_next_black_24dp"
+            android:onClick="@{() -> viewmodel.onSkipExerciseSelected()}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="@{logcardmodel.exerciseLog.skip ? View.GONE : View.VISIBLE}"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:paddingEnd="@dimen/dp_16"
+            android:paddingStart="@dimen/dp_16"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_undo_black_24dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/undo_skip_exercise"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_undo_black_24dp"
+            android:onClick="@{() -> viewmodel.onUndoSkipExerciseSelected()}"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="@{logcardmodel.exerciseLog.skip ? View.VISIBLE : View.GONE}"/>
+
+    </LinearLayout>
+</layout>

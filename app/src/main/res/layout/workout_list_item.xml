@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <data>
+    <import type="android.view.View" />
+    <import type="androidx.core.content.ContextCompat" />
+    <variable
+        name="workout"
+        type="com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Workout" />
+    <variable name="viewmodel" type="com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts.TrackerWorkoutsViewModel"/>
+    <variable
+        name="position"
+        type="Integer" />
+  </data>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      app:viewModel="@{viewmodel}"
+      app:position="@{position}">
+<RelativeLayout
+                android:id="@+id/workoutListItemContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:paddingEnd="9dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="9dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+    android:background="?android:attr/selectableItemBackground"
+    android:onClick="@{() -> viewmodel.openWorkout(workout.id)}"
+    >
+
+  <LinearLayout
+    android:id="@+id/workoutNameGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/workoutListHeader"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/colorMainText"
+      android:textSize="20sp"
+        android:text="@{workout.name}"/>
+
+    <TextView
+      android:id="@+id/workoutRepeatCount"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/colorSubText"
+      android:textSize="15sp"/>
+
+  </LinearLayout>
+
+  <ImageView
+    android:id="@+id/optionsIcon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignTop="@id/workoutNameGroup"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_centerVertical="true"
+    android:contentDescription="@string/options_icon"
+      android:onClick="@{() -> viewmodel.onWorkoutOptionsClicked(workout.position)}"
+    android:src="@drawable/ic_options_icon"
+      android:visibility="@{viewmodel.trackerWorkoutsSortMode ? View.GONE : View.VISIBLE}"/>
+
+  <LinearLayout
+    android:id="@+id/sortIconsHolder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignTop="@id/workoutNameGroup"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+      android:visibility="@{viewmodel.trackerWorkoutsSortMode ? View.VISIBLE : View.GONE}">
+
+    <ImageButton
+      android:id="@+id/positionMinusOne"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_sort_up_24dp"
+        android:visibility="@{workout.position == 0 ? View.GONE : View.VISIBLE}"
+        android:onClick="@{() -> viewmodel.positionMinusOneClicked(workout.position)}"/>
+
+    <ImageButton
+      android:id="@+id/positionPlusOne"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_sort_down_24dp"
+        android:visibility="@{workout.position + 1 == viewmodel.workoutsCount() ? View.GONE : View.VISIBLE}"
+        android:onClick="@{() -> viewmodel.positionPlusOneClicked(workout.position)}"/>
+  </LinearLayout>
+
+</RelativeLayout>
+  </LinearLayout>
+</layout>

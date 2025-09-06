@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools">
+  <!--<item-->
+    <!--android:id="@+id/becomeAffiliate"-->
+    <!--android:icon="@drawable/ic_more_black_24dp"-->
+    <!--android:showAsAction="always|withText"-->
+    <!--tools:ignore="AppCompatResource"-->
+    <!--android:title="Suggestions"/>-->
+</menu>

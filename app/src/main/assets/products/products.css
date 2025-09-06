@@ -1,0 +1,67 @@
+        .center {
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 200px;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        @font-face {
+             font-family: BebasNeue;
+              font-style: normal;
+              font-weight: normal;
+              src: url("../bebas_neue/BebasNeue Regular.ttf") format("truetype");
+        }
+        @font-face {
+             font-family: Copperplate;
+              font-style: normal;
+              font-weight: normal;
+              src: url("../copperplate/CopperplateGothicBold.ttf") format("truetype");
+        }
+        h3 {
+
+            text-align: center;
+            /*color: #900 !important; */
+            font-family: "BebasNeue", serif !important;
+
+        }
+
+        #swipe-right {
+            float: right;
+            width: 70%;
+            position: absolute;
+        }
+
+        .right {
+            text-align: right;
+            position:relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .product-page {
+            margin-bottom: .5em;
+            margin-top: .1em;
+        }
+
+        .product-image {
+             margin-left: auto;
+             margin-right: auto;
+             margin-bottom: .1em;
+
+        }
+        
+        .btn {
+            font-family: "Copperplate", Arial, Helvetica, sans-serif !important;
+            font-size: 0.9em !important;
+        }

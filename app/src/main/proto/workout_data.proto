@@ -1,0 +1,69 @@
+
+syntax = "proto2";
+
+package tutorial;
+
+option java_package = "com.musclehack.targetedHypertrophyTraining";
+option java_outer_classname = "WorkoutDataProto";
+
+message WorkoutData {
+  repeated Cycle cycles = 1;
+  repeated Workout workouts = 2;
+  repeated ExerciseSet exerciseSets = 3;
+  repeated ExerciseLog exerciseLogs = 4;
+  repeated ExerciseNote exerciseNotes = 5;
+  repeated UserExercise userExercises = 6;
+
+  message Cycle {
+    required int64 id = 1; //long
+    required string name = 2;
+    required int32 position = 3;
+    required int64 dateCreated = 4; //long
+    required int64 dateLastLogged = 5;
+    required int32 numWeeks = 6;
+  }
+
+  message Workout {
+    required int64 id = 1;
+    required string name = 2;
+    required int32 position = 3;
+    required int32 repeats = 4;
+    required int32 lastDayViewed = 5;
+    required int32 lastSetViewed = 6;
+    required int64 cycleId = 7;
+  }
+
+  message ExerciseSet {
+    required int64 id = 1;
+    required int32 position = 2;
+    required int64 cycleId = 3;
+    required int64 workoutId = 4;
+    required string exerciseName = 5;
+    required int32 lowerReps = 6;
+    required int32 higherReps = 7;
+    required int32 restTime = 8;
+  }
+
+  message ExerciseLog {
+    required int64 setId = 1;
+    required int32 day = 2;
+    optional int64 logDate = 3;
+    optional double weight = 4;
+    optional int32 reps = 5;
+    required bool hasNote = 6;
+    optional string subName = 7;
+    required bool skip = 8;
+  }
+
+  message ExerciseNote {
+    required int64 setId = 1;
+    required int32 day = 2;
+    required string note = 3;
+    required int64 date = 4;
+  }
+
+  message UserExercise {
+    required int64 id = 1;
+    required string name = 2;
+  }
+}

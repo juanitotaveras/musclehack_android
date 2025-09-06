@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/">
+
+<channel>
+	<title>MuscleHack</title>
+	<atom:link href="https://www.musclehack.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.musclehack.com</link>
+	<description>free workouts to build muscle fast &#38; lose fat</description>
+	<lastBuildDate>Fri, 16 Mar 2018 14:18:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.4</generator>
+	<item>
+		<title>(NEW 2018) How Much Protein To Build Muscle</title>
+		<link>https://www.musclehack.com/new-2018-how-much-protein-to-build-muscle/</link>
+		<comments>https://www.musclehack.com/new-2018-how-much-protein-to-build-muscle/#comments</comments>
+		<pubDate>Wed, 14 Mar 2018 11:36:30 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[protein]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19965</guid>
+		<description><![CDATA[A new Mega Meta-Analysis of 49 protein studies has been carried out on 1863 subjects. Let's put the issue of how much protein we need to build muscle to rest!]]></description>
+		<wfw:commentRss>https://www.musclehack.com/new-2018-how-much-protein-to-build-muscle/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/03/how-much-protein-build-musc.jpg" type="image/jpeg" medium="image" width="410" height="278">
+			<media:title type="plain">
+				<![CDATA[how-much-protein-build-musc]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/03/how-much-protein-build-musc-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Try this &#8211; 1 Crazy Set To Grow Your Arms!</title>
+		<link>https://www.musclehack.com/try-this-1-crazy-set-to-grow-your-arms/</link>
+		<pubDate>Mon, 12 Mar 2018 11:10:24 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19935</guid>
+		<description><![CDATA[Try this Super-Intense “Multi-Set” for your arms that’s going to produce some nice new growth! It will expose those arm muscle to brand new levels of intensity!]]></description>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/03/intense-arm-exercise.jpg" type="image/jpeg" medium="image" width="429" height="283">
+			<media:title type="plain">
+				<![CDATA[intense-arm-exercise]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/03/intense-arm-exercise-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Is Post-Workout Nutrition Dead?</title>
+		<link>https://www.musclehack.com/is-post-workout-nutrition-dead/</link>
+		<comments>https://www.musclehack.com/is-post-workout-nutrition-dead/#comments</comments>
+		<pubDate>Mon, 05 Mar 2018 11:26:14 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19868</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/is-post-workout-nutrition-dead/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/03/post-workout-nutrition.jpg" type="image/jpeg" medium="image" width="420" height="307">
+			<media:title type="plain">
+				<![CDATA[post-workout-nutrition]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/03/post-workout-nutrition-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>The Only 4 Supplements You Need To Build Muscle &#038; Lose Fat</title>
+		<link>https://www.musclehack.com/the-only-4-supplements-you-need-to-build-muscle-lose-fat/</link>
+		<pubDate>Mon, 29 Jan 2018 15:12:56 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19684</guid>
+		<description><![CDATA[]]></description>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/01/supplements-to-build-muscle.jpg" type="image/jpeg" medium="image" width="410" height="254">
+			<media:title type="plain">
+				<![CDATA[supplements-to-build-muscle]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/01/supplements-to-build-muscle-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Eat Junk Food For 2 Weeks &#8211; This Is What Happens</title>
+		<link>https://www.musclehack.com/eat-junk-food-for-2-weeks-this-is-what-happens/</link>
+		<comments>https://www.musclehack.com/eat-junk-food-for-2-weeks-this-is-what-happens/#comments</comments>
+		<pubDate>Mon, 22 Jan 2018 12:36:06 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19652</guid>
+		<description><![CDATA[A study had 15 healthy guys eat nothing but McDonald's for 2 weeks. The results will shock you and I bet they aren't what you think! Click here]]></description>
+		<wfw:commentRss>https://www.musclehack.com/eat-junk-food-for-2-weeks-this-is-what-happens/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/01/mc-donalds-2-weeks.jpg" type="image/jpeg" medium="image" width="410" height="229">
+			<media:title type="plain">
+				<![CDATA[mc-donalds-2-weeks]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/01/mc-donalds-2-weeks-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>6 Exercises For Massive Muscle Gains</title>
+		<link>https://www.musclehack.com/6-exercises-for-massive-muscle-gains/</link>
+		<comments>https://www.musclehack.com/6-exercises-for-massive-muscle-gains/#comments</comments>
+		<pubDate>Mon, 15 Jan 2018 14:29:10 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19602</guid>
+		<description><![CDATA[If I only had 6 exercises to train my whole body for the best gains possible, this is how that workout would look. And it works!]]></description>
+		<wfw:commentRss>https://www.musclehack.com/6-exercises-for-massive-muscle-gains/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/01/exercises-for-muscle-gains.jpg" type="image/jpeg" medium="image" width="402" height="249">
+			<media:title type="plain">
+				<![CDATA[exercises-for-muscle-gains]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/01/exercises-for-muscle-gains-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>The Carbohydrate That Builds Muscle</title>
+		<link>https://www.musclehack.com/the-carbohydrate-that-builds-muscle/</link>
+		<comments>https://www.musclehack.com/the-carbohydrate-that-builds-muscle/#comments</comments>
+		<pubDate>Wed, 10 Jan 2018 11:38:11 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19563</guid>
+		<description><![CDATA[This carb source is not just healthy, it also helps build muscle. It helps with testosterone levels and levels of protein synthesis (muscle growth). See here...]]></description>
+		<wfw:commentRss>https://www.musclehack.com/the-carbohydrate-that-builds-muscle/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/01/quinoa-builds-muscle.jpg" type="image/jpeg" medium="image" width="406" height="249">
+			<media:title type="plain">
+				<![CDATA[quinoa-builds-muscle]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/01/quinoa-builds-muscle-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>How To Turn Food Into Muscle Instead of Fat</title>
+		<link>https://www.musclehack.com/how-to-turn-food-into-muscle-instead-of-fat/</link>
+		<comments>https://www.musclehack.com/how-to-turn-food-into-muscle-instead-of-fat/#comments</comments>
+		<pubDate>Mon, 08 Jan 2018 14:09:15 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[turn food into muscle]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19544</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/how-to-turn-food-into-muscle-instead-of-fat/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/01/turn-food-into-muscle.jpg" type="image/jpeg" medium="image" width="410" height="272">
+			<media:title type="plain">
+				<![CDATA[turn-food-into-muscle]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/01/turn-food-into-muscle-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>How To Build Muscle While You Sleep</title>
+		<link>https://www.musclehack.com/how-to-build-muscle-while-you-sleep/</link>
+		<comments>https://www.musclehack.com/how-to-build-muscle-while-you-sleep/#comments</comments>
+		<pubDate>Wed, 03 Jan 2018 12:31:20 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19507</guid>
+		<description><![CDATA[Many people are making a huge mistake with their bedtime nutrition. I can prove with studies that you can build TWICE the muscle if you eat like this before bed]]></description>
+		<wfw:commentRss>https://www.musclehack.com/how-to-build-muscle-while-you-sleep/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2018/01/build-muscle-while-sleeping.jpg" type="image/jpeg" medium="image" width="402" height="291">
+			<media:title type="plain">
+				<![CDATA[build-muscle-while-sleeping]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2018/01/build-muscle-while-sleeping-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>How To Remove Stubborn Areas Of Body Fat</title>
+		<link>https://www.musclehack.com/how-to-remove-stubborn-areas-of-body-fat/</link>
+		<comments>https://www.musclehack.com/how-to-remove-stubborn-areas-of-body-fat/#comments</comments>
+		<pubDate>Mon, 11 Dec 2017 14:25:25 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19472</guid>
+		<description><![CDATA[Stubborn fat on our body exists because the fat there is released more slowly than other areas. But there are 3 things you can do to remove it. Click here]]></description>
+		<wfw:commentRss>https://www.musclehack.com/how-to-remove-stubborn-areas-of-body-fat/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/12/remove-stubborn-fat.jpg" type="image/jpeg" medium="image" width="410" height="288">
+			<media:title type="plain">
+				<![CDATA[remove-stubborn-fat]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/12/remove-stubborn-fat-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>How To Get Big Without Getting Fat</title>
+		<link>https://www.musclehack.com/how-to-get-big-without-getting-fat/</link>
+		<pubDate>Wed, 06 Dec 2017 14:20:42 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19428</guid>
+		<description><![CDATA[]]></description>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/12/build-muscle-without-gettin.jpg" type="image/jpeg" medium="image" width="400" height="195">
+			<media:title type="plain">
+				<![CDATA[build-muscle-without-gettin]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/12/build-muscle-without-gettin-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>The Worst Dang Protein For Building Muscle</title>
+		<link>https://www.musclehack.com/the-worst-dang-protein-for-building-muscle/</link>
+		<pubDate>Mon, 04 Dec 2017 12:38:54 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19394</guid>
+		<description><![CDATA[]]></description>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/12/soy-protein-build-muscle.jpg" type="image/jpeg" medium="image" width="360" height="248">
+			<media:title type="plain">
+				<![CDATA[soy-protein-build-muscle]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/12/soy-protein-build-muscle-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>5 x Workout Finishers For More Muscle Growth</title>
+		<link>https://www.musclehack.com/5-x-workout-finishers-for-more-muscle-growth/</link>
+		<comments>https://www.musclehack.com/5-x-workout-finishers-for-more-muscle-growth/#comments</comments>
+		<pubDate>Wed, 29 Nov 2017 12:31:23 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19362</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/5-x-workout-finishers-for-more-muscle-growth/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/11/workout-finishers.jpg" type="image/jpeg" medium="image" width="380" height="243">
+			<media:title type="plain">
+				<![CDATA[workout-finishers]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/11/workout-finishers-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>How Much Fat Can You Lose In A Month?</title>
+		<link>https://www.musclehack.com/how-much-fat-can-you-lose-in-a-month/</link>
+		<comments>https://www.musclehack.com/how-much-fat-can-you-lose-in-a-month/#comments</comments>
+		<pubDate>Mon, 27 Nov 2017 15:08:56 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19312</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/how-much-fat-can-you-lose-in-a-month/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/11/how-much-fat-lose-month.jpg" type="image/jpeg" medium="image" width="400" height="266">
+			<media:title type="plain">
+				<![CDATA[how-much-fat-lose-month]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/11/how-much-fat-lose-month-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>10 Habits Of All Shredded Guys &#038; Girls</title>
+		<link>https://www.musclehack.com/10-habits-of-all-shredded-guys-girls/</link>
+		<comments>https://www.musclehack.com/10-habits-of-all-shredded-guys-girls/#comments</comments>
+		<pubDate>Mon, 20 Nov 2017 14:39:48 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19269</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/10-habits-of-all-shredded-guys-girls/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/11/habits-of-ripped-guys.jpg" type="image/jpeg" medium="image" width="400" height="267">
+			<media:title type="plain">
+				<![CDATA[habits-of-ripped-guys]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/11/habits-of-ripped-guys-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Build Muscle 3 Times Faster With This Method</title>
+		<link>https://www.musclehack.com/build-muscle-3-times-faster-with-this-method/</link>
+		<comments>https://www.musclehack.com/build-muscle-3-times-faster-with-this-method/#comments</comments>
+		<pubDate>Mon, 13 Nov 2017 11:27:23 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19205</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/build-muscle-3-times-faster-with-this-method/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/11/build-muscle.jpg" type="image/jpeg" medium="image" width="420" height="258">
+			<media:title type="plain">
+				<![CDATA[build-muscle]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/11/build-muscle-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Is Real Food Protein or Protein Powder Better For Gains?</title>
+		<link>https://www.musclehack.com/is-real-food-protein-or-protein-powder-better-for-gains/</link>
+		<comments>https://www.musclehack.com/is-real-food-protein-or-protein-powder-better-for-gains/#comments</comments>
+		<pubDate>Wed, 08 Nov 2017 11:11:27 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[protein powders]]></category>
+		<category><![CDATA[whey protein]]></category>
+		<category><![CDATA[whole foods]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19155</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/is-real-food-protein-or-protein-powder-better-for-gains/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/11/protein-powder-vs-whole-foo.jpg" type="image/jpeg" medium="image" width="400" height="198">
+			<media:title type="plain">
+				<![CDATA[protein-powder-vs-whole-foods]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/11/protein-powder-vs-whole-foo-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>How Many Times To Eat Per Day To Build Muscle</title>
+		<link>https://www.musclehack.com/how-many-times-to-eat-per-day-to-build-muscle/</link>
+		<comments>https://www.musclehack.com/how-many-times-to-eat-per-day-to-build-muscle/#comments</comments>
+		<pubDate>Mon, 06 Nov 2017 12:15:18 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19126</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/how-many-times-to-eat-per-day-to-build-muscle/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/11/meals-per-day.jpg" type="image/jpeg" medium="image" width="1280" height="720">
+			<media:title type="plain">
+				<![CDATA[meals per day]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/11/meals-per-day-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Whole Eggs Increase Muscle Growth By 45%</title>
+		<link>https://www.musclehack.com/whole-eggs-increase-muscle-growth-by-45/</link>
+		<comments>https://www.musclehack.com/whole-eggs-increase-muscle-growth-by-45/#comments</comments>
+		<pubDate>Wed, 01 Nov 2017 15:05:53 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19080</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/whole-eggs-increase-muscle-growth-by-45/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/10/Whole-eggs-muscle-growth.jpg" type="image/jpeg" medium="image" width="450" height="346">
+			<media:title type="plain">
+				<![CDATA[Whole-eggs-muscle-growth]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/10/Whole-eggs-muscle-growth-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>High Reps or Low Reps for Fat Loss. The Answer!</title>
+		<link>https://www.musclehack.com/high-reps-or-low-reps-for-fat-loss-the-answer/</link>
+		<comments>https://www.musclehack.com/high-reps-or-low-reps-for-fat-loss-the-answer/#comments</comments>
+		<pubDate>Mon, 16 Oct 2017 11:32:19 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19036</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/high-reps-or-low-reps-for-fat-loss-the-answer/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/10/high-reps-low-fat-loss.jpg" type="image/jpeg" medium="image" width="500" height="313">
+			<media:title type="plain">
+				<![CDATA[high-reps-low-fat-loss]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/10/high-reps-low-fat-loss-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Women Reveal The Male Body Type They Prefer</title>
+		<link>https://www.musclehack.com/women-reveal-the-male-body-type-they-prefer/</link>
+		<comments>https://www.musclehack.com/women-reveal-the-male-body-type-they-prefer/#comments</comments>
+		<pubDate>Wed, 11 Oct 2017 10:41:08 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=19011</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/women-reveal-the-male-body-type-they-prefer/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/10/male-bodt-types.jpg" type="image/jpeg" medium="image" width="405" height="465">
+			<media:title type="plain">
+				<![CDATA[male bodt types]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/10/male-bodt-types-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Proof That You Can Build Muscle &#038; Lose Fat At The Same Time</title>
+		<link>https://www.musclehack.com/proof-that-you-can-build-muscle-lose-fat-at-the-same-time/</link>
+		<comments>https://www.musclehack.com/proof-that-you-can-build-muscle-lose-fat-at-the-same-time/#comments</comments>
+		<pubDate>Mon, 09 Oct 2017 13:17:23 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=18976</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/proof-that-you-can-build-muscle-lose-fat-at-the-same-time/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/10/body-recomposition.jpg" type="image/jpeg" medium="image" width="311" height="162">
+			<media:title type="plain">
+				<![CDATA[body recomposition]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/10/body-recomposition-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>3 Big Things Arnold Got Right About Building Muscle</title>
+		<link>https://www.musclehack.com/3-big-things-arnold-got-right-about-building-muscle/</link>
+		<comments>https://www.musclehack.com/3-big-things-arnold-got-right-about-building-muscle/#comments</comments>
+		<pubDate>Wed, 04 Oct 2017 11:25:23 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=18924</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/3-big-things-arnold-got-right-about-building-muscle/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/10/arnold-advice-bodybuilding.jpg" type="image/jpeg" medium="image" width="510" height="323">
+			<media:title type="plain">
+				<![CDATA[arnold-advice-bodybuilding]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/10/arnold-advice-bodybuilding-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Arnold&#8217;s &#8220;Golden 6&#8221; 3-Day Full-Body Workout</title>
+		<link>https://www.musclehack.com/arnolds-golden-6-3-day-full-body-workout/</link>
+		<comments>https://www.musclehack.com/arnolds-golden-6-3-day-full-body-workout/#comments</comments>
+		<pubDate>Mon, 02 Oct 2017 11:08:04 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=18886</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/arnolds-golden-6-3-day-full-body-workout/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/10/golden-6-workout.jpg" type="image/jpeg" medium="image" width="522" height="430">
+			<media:title type="plain">
+				<![CDATA[golden-6-workout]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/10/golden-6-workout-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+		<item>
+		<title>Extra Protein Will Not Make You Fat?</title>
+		<link>https://www.musclehack.com/extra-protein-will-not-make-you-fat/</link>
+		<comments>https://www.musclehack.com/extra-protein-will-not-make-you-fat/#comments</comments>
+		<pubDate>Wed, 27 Sep 2017 11:10:43 +0000</pubDate>
+		<dc:creator><![CDATA[Mark McManus]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[body fat]]></category>
+		<category><![CDATA[excess protein]]></category>
+
+		<guid isPermaLink="false">https://www.musclehack.com/?p=18838</guid>
+		<description><![CDATA[]]></description>
+		<wfw:commentRss>https://www.musclehack.com/extra-protein-will-not-make-you-fat/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<media:content url="https://www.musclehack.com/wp-content/uploads/2017/09/protein-make-you-fat.jpg" type="image/jpeg" medium="image" width="500" height="314">
+			<media:title type="plain">
+				<![CDATA[protein-make-you-fat]]>
+			</media:title>
+			<media:thumbnail url="https://www.musclehack.com/wp-content/uploads/2017/09/protein-make-you-fat-105x108.jpg" width="105" height="108" />
+							<media:description type="plain">
+					<![CDATA[]]>
+				</media:description>
+										<media:copyright>
+					Mark McManus				</media:copyright>
+					</media:content>
+			</item>
+	</channel>
+</rss>

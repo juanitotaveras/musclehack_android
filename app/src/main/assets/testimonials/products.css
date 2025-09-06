@@ -1,0 +1,93 @@
+        .center {
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        @font-face {
+             font-family: BebasNeue;
+              font-style: normal;
+              font-weight: normal;
+              src: url("../bebas_neue/BebasNeue Regular.ttf") format("truetype");
+        }
+        h3 {
+
+            text-align: center;
+            /*color: #900 !important; */
+            font-family: "BebasNeue", serif !important;
+
+        }
+
+        #swipe-right {
+            float: right;
+            width: 70%;
+            position: absolute;
+        }
+
+        .right {
+            text-align: right;
+            position:relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .product-page {
+            margin-bottom: .5em;
+            margin-top: .1em;
+        }
+
+        .product-image {
+             margin-left: auto;
+             margin-right: auto;
+             margin-bottom: .1em;
+
+        }
+
+        .quote {
+            font-size:150%;
+            //color: #063e99;
+        }
+
+        .quote-right {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+        }
+
+        blockquote {
+            border:none;
+            font-family:  Georgia, "Times New Roman", Times, serif;
+            margin-bottom:-30px;
+            quotes: "\201C""\201D""\2018""\2019";
+        }
+
+        blockquote p {
+            font-size:14px;
+        }
+
+        blockquote p:before {
+            content: open-quote;
+            font-weight: bold;
+            font-size:100px;
+            color:#889c0b;
+        }
+        blockquote p:after {
+            content: close-quote;
+            font-weight: bold;
+            font-size:100px;
+            color:#889c0b;
+
+        }

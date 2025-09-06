@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <data>
+    <variable
+        name="viewmodel"
+        type="com.musclehack.targetedHypertrophyTraining.exerciseBank.ExerciseBankViewModel" />
+  </data>
+
+  <LinearLayout
+      android:id="@+id/exerciseBankLinearLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:focusable="true"
+      android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginStart="10dip">
+
+      <ImageView
+          android:id="@+id/searchIcon"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:contentDescription="@string/search_icon"
+          android:src="@drawable/ic_search_black_24dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:visibility="gone"/>
+
+      <AutoCompleteTextView
+          android:id="@+id/autoCompleteBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@id/searchIcon"
+          android:layout_toEndOf="@id/searchIcon"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentEnd="true"
+          android:text="@{viewmodel.getBankSearchText()}"
+          tools:ignore="RtlSymmetry"
+          android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/exerciseBankFullList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+  </LinearLayout>
+</layout>

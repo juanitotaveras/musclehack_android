@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <data>
+    <import type="android.view.View"/>
+    <variable
+        name="viewmodel"
+        type="com.musclehack.targetedHypertrophyTraining.workoutTracker.edit.EditSetsViewModel" />
+    <variable
+        name="exerciseSet"
+        type="com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseSet" />
+    <variable
+        name="position"
+        type="Integer" />
+  </data>
+
+  <LinearLayout
+      android:id="@+id/setsListItemContainer"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingLeft="10dip"
+      android:paddingStart="10dip"
+      android:paddingRight="12dip"
+      android:paddingEnd="12dip"
+      android:paddingTop="10dip"
+      android:paddingBottom="10dip"
+      app:viewModel="@{viewmodel}"
+      app:position="@{position}">
+
+    <TextView
+        android:id="@+id/exerciseNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dip"
+        android:layout_marginRight="3dip"
+        android:text="@{exerciseSet.getExercisePositionText()}"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/setNameGroup"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="82"
+        android:orientation="vertical">
+
+
+      <TextView
+          android:id="@+id/exerciseName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#000000"
+          android:textSize="20sp"
+          android:text="@{exerciseSet.exerciseName}"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="58"
+          android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/repRangeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/rep_range"
+            android:textColor="@color/secondaryText"
+            android:layout_marginRight="3dip"
+            android:layout_marginEnd="3dip" />
+
+        <TextView
+            android:id="@+id/repRangeLowerTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondaryText"
+            android:textSize="15sp"
+            android:text="@{exerciseSet.getLowerRepsText()}"/>
+
+        <TextView
+            android:id="@+id/repRangeDashText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dash"
+            android:textColor="@color/secondaryText"
+            android:textSize="15sp"
+            android:paddingLeft="1dip"
+            android:paddingStart="1dip"
+            android:paddingRight="1dip"
+            android:paddingEnd="1dip" />
+
+        <TextView
+            android:id="@+id/repRangeHigherTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondaryText"
+            android:textSize="15sp"
+            android:layout_marginRight="15dip"
+            android:layout_marginEnd="15dip"
+            android:text="@{exerciseSet.getHigherRepsText()}"/>
+
+        <TextView
+            android:id="@+id/restTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rest_time"
+            android:textColor="@color/secondaryText"
+            android:textSize="15sp"
+            android:layout_marginRight="3dip"
+            android:layout_marginEnd="3dip" />
+
+        <TextView
+            android:id="@+id/restTimeTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondaryText"
+            android:textSize="15sp"
+            android:layout_marginRight="3dip"
+            android:layout_marginEnd="3dip"
+            android:text="@{exerciseSet.getRestTimeText()}"/>
+
+        <TextView
+            android:id="@+id/restTimeEndText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sec"
+            android:textColor="@color/secondaryText"
+            android:textSize="15sp" />
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/optionsIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:src="@drawable/ic_options_icon"
+      android:background="?android:attr/selectableItemBackground"
+        android:onClick="@{() -> viewmodel.onSetOptionsClicked(position)}"
+        android:visibility="@{viewmodel.editSetsSortMode ? View.GONE : View.VISIBLE}"/>
+
+    <LinearLayout
+        android:id="@+id/sortIconsHolder"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_marginEnd="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="vertical"
+        android:visibility="@{viewmodel.editSetsSortMode ? View.VISIBLE : View.GONE}">
+
+      <ImageButton
+          android:id="@+id/positionMinusOne"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ic_sort_up_24dp"
+          android:visibility="@{position == 0 ? View.GONE : View.VISIBLE}"
+          android:onClick="@{() -> viewmodel.positionMinusOneClicked(position)}"
+          />
+
+      <ImageButton
+          android:id="@+id/positionPlusOne"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ic_sort_down_24dp"
+          android:visibility="@{(position+1) == viewmodel.setCount ? View.GONE : View.VISIBLE}"
+          android:onClick="@{() -> viewmodel.positionPlusOneClicked(position)}"
+          />
+    </LinearLayout>
+
+  </LinearLayout>
+</layout>

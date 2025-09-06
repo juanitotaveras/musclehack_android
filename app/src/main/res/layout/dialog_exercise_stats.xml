@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout-->
+  <!--android:layout_height="match_parent"-->
+  <!--android:layout_width="match_parent"-->
+  <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+  <!---->
+<!--</FrameLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+  <ProgressBar
+    android:id="@+id/exerciseStatsProgress"
+    style="?android:attr/progressBarStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="visible"/>
+
+  <!--<HorizontalScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+    <com.jjoe64.graphview.GraphView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginRight="10dip"
+      android:id="@+id/graph"
+      android:layout_marginEnd="10dip"/>
+
+    <!--</LinearLayout>-->
+
+  <!--</HorizontalScrollView>-->
+
+
+  <TextView
+    android:id="@+id/noDataRecordedInfo"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dip"
+    android:text="@string/no_data_recorded_info"
+    android:textSize="15sp"
+    android:visibility="gone"/>
+
+</RelativeLayout>

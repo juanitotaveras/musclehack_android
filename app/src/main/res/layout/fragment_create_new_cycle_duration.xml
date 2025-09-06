@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/createNewCycleLinearLayout"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:paddingBottom="0dp"
+  android:paddingTop="25dp"
+  android:focusableInTouchMode="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp"
+    android:text="@string/how_many_weeks"/>
+
+  <EditText
+    android:id="@+id/cycleDurationTextBox"
+    android:layout_width="50dip"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="6dip"
+    android:ems="10"
+    android:maxLength="3"
+    android:inputType="number"
+    android:text="10"
+    tools:ignore="HardcodedText"/>
+</LinearLayout>

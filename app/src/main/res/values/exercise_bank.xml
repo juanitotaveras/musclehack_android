@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="legs_title">Legs (overall)</string>
+  <string name="barbell_squats">Barbell Squats</string>
+  <string name="leg_press">Leg Press</string>
+  <string name="machine_hack_squat">Machine Hack Squats</string>
+  <string name="barbell_lunges">Barbell Lunges</string>
+  <string name="dumbbell_lunges">Dumbell Lunges</string>
+
+  <string name="legs_hamstrings_title">Legs (hams)</string>
+  <string name="stiff_legged_deadlifts">Stiff-Legged Deadlifts</string>
+  <string name="leg_curls">Leg Curls</string>
+
+  <string name="legs_quads_title">Legs (quads)</string>
+  <string name="leg_extensions">Leg Extensions</string>
+
+  <string name="calves_title">Calves</string>
+  <string name="standing_calf_raises">Standing Calf Raises</string>
+  <string name="seated_calf_raises">Seated Calf Raises</string>
+  <string name="hack_squat_machine_calf_raises">Hack-Squat Machine Calf Raises</string>
+  <string name="calf_raise_on_leg_press">Calf Raises on Leg Press Machine</string>
+
+  <string name="biceps_full_title">Biceps (compound)</string>
+  <string name="chin_ups">Chin-ups</string>
+  <string name="close_grip_pulldowns">Close-grip pulldowns</string>
+
+  <string name="biceps_inner_title">Biceps (isolation)</string>
+  <string name="machine_preacher_curls">Machine Preacher Curls</string>
+  <string name="standing_bb_curls">Standing Barbell Curls</string>
+  <string name="standing_db_curls">Standing Dumbbell Curls</string>
+  <string name="ez_bar_curls">Ez Bar Curls</string>
+  <string name="seated_incline_db_curls">Seated Incline Dumbbell Curls</string>
+  <string name="concentration_curls">Concentration Curls</string>
+
+  <string name="triceps_inner_title">Triceps</string>
+  <string name="decline_tricep_extension">Decline Tricep Extension</string>
+  <string name="decline_cable_tricep_extension">Decline Cable Tricep Extension</string>
+  <string name="weighted_tricep_dips">Weighted Tricep Dips</string>
+  <string name="close_grip_bench_press">Close Grip Bench Press</string>
+  <string name="cable_bent_over_tricep_extensions">Cable Bent-Over Tricep Extensions</string>
+  <string name="cable_tricep_pushdowns">Cable Tricep Pushdowns</string>
+
+  <string name="triceps_full_title">Triceps (full)</string>
+  <string name="low_cable_kickbacks">Low Cable Kickbacks</string>
+  <string name="dumbbell_kickbacks">Dumbbell Kickbacks</string>
+  <string name="bth_dumbbell_tricep_extensions">Behind-the-head Dumbbell Tricep Extensions</string>
+  <string name="one_arm_reverse_pushdowns">One-Arm Reverse Pushdowns</string>
+  <string name="pinwheel_curls">Pinwheel Curls</string>
+
+  <string name="chest_main_title">Chest (overall)</string>
+  <string name="flat_dumbbell_bench_press">Flat Dumbbell Bench Press</string>
+  <string name="flat_barbell_bench_press">Flat Barbell Bench Press</string>
+
+  <string name="chest_lower_title">Chest (lower)</string>
+  <string name="decline_bb_bench_press">Decline Barbell Bench Press</string>
+  <string name="decline_db_bench_press">Decline Dumbbell Bench Press</string>
+  <string name="deep_chest_dips">Deep Chest Dips</string>
+
+  <string name="chest_upper_title">Chest (upper)</string>
+  <string name="incline_bench_press">Incline Bench Press</string>
+
+  <string name="chest_isolation_title">Chest (isolation)</string>
+  <string name="pec_deck">Pec Deck</string>
+  <string name="cable_crossovers">Cable Crossovers</string>
+
+  <string name="back_full_title">Back (overall)</string>
+  <string name="deadlift">Deadlift</string>
+
+  <string name="back_secondary_title">Back (lats)</string>
+  <string name="lat_pulldowns">Lat Pulldowns</string>
+  <string name="pullups">Pull-Ups</string>
+  <string name="bent_over_barbell_rows">Bent Over Barbell Rows</string>
+  <string name="seated_cable_rows">Seated Cable Rows</string>
+  <string name="one_arm_db_rows">One Arm Dumbbell Rows</string>
+  <string name="pullover_machine">Pullover Machine</string>
+  <string name="kneeling_pullovers">Kneeling Cable Bent-Over Pullovers</string>
+  <string name="decline_cable_pullovers">Decline Cable Pullovers</string>
+
+  <string name="back_lower_title">Back (lower)</string>
+  <string name="hyperextensions">Hyperextensions</string>
+
+  <string name="shoulders_title">Shoulders (compound)</string>
+  <string name="standing_oh_bb_press">Standing Overhead Barbell Press</string>
+  <string name="standing_oh_db_press">Standing Overhead Dumbbell Press</string>
+  <string name="seated_oh_bb_press">Seated Overhead Barbell Press</string>
+  <string name="seated_oh_db_press">Seated Overhead Dumbbell Press</string>
+
+  <string name="shoulders_lateral_title">Shoulders (isolation)</string>
+  <string name="db_lat_raises">Dumbbell Lateral Raises</string>
+  <string name="lat_raise_machine">Lateral Raise Machine</string>
+  <string name="cable_lat_raises">Cable Lateral Raises</string>
+  <string name="bb_front_raises">Barbell Front Raises</string>
+  <string name="db_front_raises">Dumbbell Front Raises</string>
+  <string name="low_cable_front_raises">Low Cable Front Raises</string>
+
+  <string name="traps_main_title">Traps</string>
+  <string name="bb_shrugs">Barbell Shrugs</string>
+  <string name="smith_machine_shrugs">Smith Machine Shrugs</string>
+  <string name="cable_shrugs">Cable Shrugs</string>
+  <string name="trap_bar_shrugs">Trap Bar Shrugs</string>
+  <string name="db_shrugs">Dumbbell Shrugs</string>
+  <string name="calf_raise_machine_shrugs">Calf Raise Machine Shrugs</string>
+  <string name="bb_upright_rows">Barbell Upright Rows</string>
+  <string name="db_upright_rows">Dumbbell Upright Rows</string>
+
+  <string name="abs_title">Abs</string>
+  <string name="leg_raises_captain">Legs Raises on Captain\'s Chair</string>
+  <string name="hanging_leg_raises">Hanging Leg Raises</string>
+  <string name="hanging_knee_raises">Hanging Knee Raises</string>
+  <string name="decline_sit_ups">Decline Sit-Ups</string>
+  <string name="kneeling_cable_crunches">Kneeling Cable Crunches</string>
+  <string name="reverse_crunches">Reverse Crunches</string>
+  <string name="machine_crunches">Machine Crunches</string>
+  <string name="machine_lying_hip_raises">Machine Lying Hip Raises</string>
+
+  <string name="forearms_title">Forearms</string>
+  <string name="bb_wrist_curls">Barbell Wrist Curls</string>
+  <string name="db_wrist_curls">Dumbbell Wrist Curls</string>
+  <string name="low_cable_wrist_curls">Low Cable Wrist Curls</string>
+  <string name="reverse_wrist_curls">Reverse Wrist Curls</string>
+  <string name="wrist_roller">Wrist Roller</string>
+  <string name="rope_curls">Cable Rope Curls</string>
+  <string name="rack_pulls">Rack Pulls</string>
+  <string name="upright_row_with_rope">Cable Upright Row (with rope)</string>
+
+</resources>

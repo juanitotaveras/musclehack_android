@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/testimonials_option"
+        android:icon="@drawable/medal_icon"
+        android:title="@string/testimonials_title"/>
+    <item
+        android:id="@+id/backup_option"
+        android:icon="@drawable/cloud_icon"
+        android:title="@string/online_backup_title"/>
+    <item
+        android:id="@+id/contribute_option"
+        android:icon="@drawable/ic_coffee_0"
+        android:title="@string/contribute_title" />
+
+    <item
+        android:id="@+id/settings_option"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/settings"/>
+
+    <item
+        android:id="@+id/about_option"
+        android:icon="@drawable/ic_info_white_24dp"
+        android:title="@string/about"/>
+</menu>
