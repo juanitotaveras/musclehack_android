@@ -9,7 +9,8 @@ import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.databinding.CycleListItemBinding
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Cycle
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Date
+import java.util.Locale
 
 class CyclesAdapter2(private val viewModel: TrackerHomeViewModel) :
     ListAdapter<Cycle, CyclesAdapter2.ViewHolder>(CycleDiffCallback()) {

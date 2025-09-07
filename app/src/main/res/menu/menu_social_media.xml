@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:tools="http://schemas.android.com/tools"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-  <item
-    android:id="@+id/facebookOption"
-    android:title="@string/musclehack_on_facebook"
-    android:visible="true"
-    android:showAsAction="always"
-    android:icon="@drawable/ic_facebook"
-    tools:ignore="AppCompatResource"/>
-  <item
-    android:id="@+id/instagramOption"
-    android:title="@string/musclehack_on_instagram"
-    android:visible="true"
-    android:showAsAction="always"
-    android:icon="@drawable/ic_instagram"
-    tools:ignore="AppCompatResource"/>
-  <item
-    android:id="@+id/twitterOption"
-    android:title="@string/musclehack_on_twitter"
-    android:visible="true"
-    android:showAsAction="always"
-    android:icon="@drawable/ic_twitter"
-    tools:ignore="AppCompatResource"/>
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/facebookOption"
+        android:title="@string/musclehack_on_facebook"
+        android:visible="true"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_facebook"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/instagramOption"
+        android:title="@string/musclehack_on_instagram"
+        android:visible="true"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_instagram"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/twitterOption"
+        android:title="@string/musclehack_on_twitter"
+        android:visible="true"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_twitter"
+        tools:ignore="AppCompatResource" />
 
-  <!--<item-->
+    <!--<item-->
     <!--android:id="@+id/deleteCycleOption"-->
     <!--android:icon="@drawable/ic_delete_black_24dp"-->
     <!--android:title="@string/delete"-->
     <!--android:visible="true"-->
     <!--android:showAsAction="ifRoom"/>-->
 
-  <!--<item-->
-  <!--android:id="@+id/downloadCycleOption"-->
-  <!--android:icon="@drawable/ic_file_download_black_24dp"-->
-  <!--android:title="@string/download"-->
-  <!--android:visible="true"-->
-  <!--android:showAsAction="ifRoom"/>-->
+    <!--<item-->
+    <!--android:id="@+id/downloadCycleOption"-->
+    <!--android:icon="@drawable/ic_file_download_black_24dp"-->
+    <!--android:title="@string/download"-->
+    <!--android:visible="true"-->
+    <!--android:showAsAction="ifRoom"/>-->
 
 </menu>

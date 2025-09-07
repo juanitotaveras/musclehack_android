@@ -2,10 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <import type="android.view.View"/>
+
+        <import type="android.view.View" />
+
         <variable
             name="viewmodel"
             type="com.musclehack.targetedHypertrophyTraining.workoutTracker.training.TrainingViewModel" />
+
         <variable
             name="logcardmodel"
             type="com.musclehack.targetedHypertrophyTraining.workoutTracker.training.LogCardModel" />
@@ -42,7 +45,8 @@
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:focusable="true"
-            android:visibility="@{viewmodel.getExerciseTutorialLink(logcardmodel.getExerciseName()) == null ? View.GONE : View.VISIBLE}"/>
+            android:visibility="@{viewmodel.getExerciseTutorialLink(logcardmodel.getExerciseName()) == null ? View.GONE : View.VISIBLE}" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_48"
@@ -58,6 +62,7 @@
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:focusable="true" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_48"
@@ -73,7 +78,8 @@
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:focusable="true"
-            android:visibility="@{logcardmodel.exerciseLog.skip ? View.GONE : View.VISIBLE}"/>
+            android:visibility="@{logcardmodel.exerciseLog.skip ? View.GONE : View.VISIBLE}" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_48"
@@ -89,7 +95,7 @@
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:focusable="true"
-            android:visibility="@{logcardmodel.exerciseLog.skip ? View.VISIBLE : View.GONE}"/>
+            android:visibility="@{logcardmodel.exerciseLog.skip ? View.VISIBLE : View.GONE}" />
 
     </LinearLayout>
 </layout>

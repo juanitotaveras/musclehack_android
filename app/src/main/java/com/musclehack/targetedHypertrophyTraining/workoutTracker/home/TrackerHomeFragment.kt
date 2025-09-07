@@ -2,7 +2,12 @@ package com.musclehack.targetedHypertrophyTraining.workoutTracker.home
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
+import android.view.ViewGroup
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.PopupMenu
@@ -17,8 +22,12 @@ import com.musclehack.targetedHypertrophyTraining.EventObserver
 import com.musclehack.targetedHypertrophyTraining.MainActivity
 import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.databinding.FragmentTrackerHomeBinding
-import com.musclehack.targetedHypertrophyTraining.testimonials.TestimonialsFragmentActivity
-import com.musclehack.targetedHypertrophyTraining.utilities.*
+import com.musclehack.targetedHypertrophyTraining.utilities.EXTRA_FILE
+import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_CHANGE_CYCLE_DURATION
+import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_CONFIRM_DELETE_CYCLE
+import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_PLEASE_RATE
+import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_RENAME_CYCLE
+import com.musclehack.targetedHypertrophyTraining.utilities.PleaseRateDialogFragment
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 

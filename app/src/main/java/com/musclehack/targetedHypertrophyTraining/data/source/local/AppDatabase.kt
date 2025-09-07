@@ -3,7 +3,11 @@ package com.musclehack.targetedHypertrophyTraining.data.source.local
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.musclehack.targetedHypertrophyTraining.exerciseBank.entities.UserExercise
-import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.*
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Cycle
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseLog
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseNote
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseSet
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Workout
 
 
 @Database(

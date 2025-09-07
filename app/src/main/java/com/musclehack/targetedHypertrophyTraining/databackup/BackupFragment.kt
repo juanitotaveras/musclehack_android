@@ -28,7 +28,11 @@ class BackupFragment : DaggerFragment() {
             uri?.also {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                     dbHelper.export(requireContext(), it)
-                    Toast.makeText(requireContext(), "Database exported successfully", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        requireContext(),
+                        "Database exported successfully",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             }
         }
@@ -40,7 +44,11 @@ class BackupFragment : DaggerFragment() {
             uri?.also {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                     dbHelper.import(requireContext(), it, true)
-                    Toast.makeText(requireContext(), "Database restored successfully", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        requireContext(),
+                        "Database restored successfully",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             }
         }

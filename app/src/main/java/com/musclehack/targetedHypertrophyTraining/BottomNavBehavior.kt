@@ -9,7 +9,6 @@ import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup.MarginLayoutParams
 import android.view.ViewPropertyAnimator
-import androidx.annotation.Dimension
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.ViewCompat
 import com.google.android.material.animation.AnimationUtils

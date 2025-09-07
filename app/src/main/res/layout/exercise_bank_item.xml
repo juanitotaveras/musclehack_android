@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <data>
-    <variable
-      name="viewmodel"
-      type="com.musclehack.targetedHypertrophyTraining.exerciseBank.ExerciseBankViewModel"/>
-  </data>
+    <data>
 
-  <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:background="@color/white">
-  <RelativeLayout
-      android:layout_height="wrap_content"
-      android:layout_width="match_parent"
-      android:paddingTop="15dip"
-      android:paddingBottom="15dip"
-      android:paddingStart="6dip"
-      android:paddingLeft="6dip"
-      android:paddingEnd="6dip"
-      android:paddingRight="6dip"
-      android:id="@+id/bankItemContainer"
-      android:background="?android:attr/selectableItemBackground">
+        <variable
+            name="viewmodel"
+            type="com.musclehack.targetedHypertrophyTraining.exerciseBank.ExerciseBankViewModel" />
+    </data>
 
-    <TextView
-        android:id="@+id/exerciseBankListItem"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
-        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
-        android:textSize="16sp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:textColor="@color/black"/>
-    <!--<ImageView-->
-    <!--android:id="@+id/optionsIcon"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_centerVertical="true"-->
-    <!--android:layout_alignParentEnd="true"-->
-    <!--android:layout_alignParentRight="true"-->
-    <!--android:layout_alignTop="@id/cycle_name_group"-->
-    <!--android:contentDescription="@string/options_icon"-->
-    <!--android:src="@drawable/ic_more_ps"-->
-    <!--android:visibility="invisible"/>-->
-    <ImageButton
-        android:id="@+id/deleteCustomExercise"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_delete_black_24dp"
-        android:layout_gravity="end|bottom"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="10dip"
-        android:layout_marginRight="10dip"
-        android:contentDescription="@string/delete_icon" />
+        android:background="@color/white">
 
-  </RelativeLayout>
-  </LinearLayout>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            android:paddingStart="6dip"
+            android:paddingLeft="6dip"
+            android:paddingEnd="6dip"
+            android:paddingRight="6dip"
+            android:id="@+id/bankItemContainer"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/exerciseBankListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+                android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                android:textSize="16sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black" />
+            <!--<ImageView-->
+            <!--android:id="@+id/optionsIcon"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignTop="@id/cycle_name_group"-->
+            <!--android:contentDescription="@string/options_icon"-->
+            <!--android:src="@drawable/ic_more_ps"-->
+            <!--android:visibility="invisible"/>-->
+            <ImageButton
+                android:id="@+id/deleteCustomExercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:layout_gravity="end|bottom"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="10dip"
+                android:layout_marginRight="10dip"
+                android:contentDescription="@string/delete_icon" />
+
+        </RelativeLayout>
+    </LinearLayout>
 </layout>

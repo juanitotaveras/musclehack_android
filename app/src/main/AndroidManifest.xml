@@ -8,13 +8,13 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-    
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <!-- Exact alarm permission for rest timer notifications -->
     <!-- This permission is used exclusively for workout rest timers to provide -->
     <!-- accurate notifications when rest periods are complete during training -->
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-    
+
     <!-- Fallback permission for devices running Android 12+ that don't grant SCHEDULE_EXACT_ALARM -->
     <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
 
@@ -31,18 +31,19 @@
         <activity
             android:name=".testimonials.TestimonialsFragmentActivity"
             android:label="@string/title_activity_testimonials_fragment"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".databackup.BackupFragmentActivity"
             android:label="@string/title_backup_activity"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".more.ContributeFragmentActivity"
             android:label="@string/contribute_title"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".about.AboutFragmentActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".about.AboutFragmentActivity"
             android:label="@string/title_activity_about"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme"
@@ -56,26 +57,25 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:windowSoftInputMode="adjustPan">
-        </activity> <!-- <activity -->
+            android:windowSoftInputMode="adjustPan"></activity> <!-- <activity -->
         <activity
             android:name=".workoutTracker.home.OptInActivity"
             android:label="OptActivity" />
         <activity
             android:name=".exerciseBank.ExerciseBankOverlayActivity"
             android:label="@string/title_activity_exercise_bank_overlay"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".trainingCycleCreation.CreatingCycleActivity" />
         <activity
             android:name=".preferences.PreferenceActivity"
             android:label="@string/title_activity_preferences"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
 
-        <service 
+        <service
             android:name=".workoutTracker.training.TimerService"
             android:foregroundServiceType="shortService"
             android:exported="false" />
-        <receiver android:name=".workoutTracker.training.TimerFinishedReceiver"/>
+        <receiver android:name=".workoutTracker.training.TimerFinishedReceiver" />
 
         <meta-data
             android:name="firebase_crashlytics_collection_enabled"
@@ -85,15 +85,15 @@
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
             android:exported="false"
-            tools:replace="android:exported"/>
+            tools:replace="android:exported" />
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
             android:exported="false"
-            tools:replace="android:exported"/>
+            tools:replace="android:exported" />
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
             android:exported="false"
-            tools:replace="android:exported"/>
+            tools:replace="android:exported" />
     </application>
 
 </manifest>

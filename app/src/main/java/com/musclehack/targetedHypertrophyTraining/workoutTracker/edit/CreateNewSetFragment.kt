@@ -2,7 +2,13 @@ package com.musclehack.targetedHypertrophyTraining.workoutTracker.edit
 
 import android.content.Context
 import android.os.Bundle
-import android.view.*
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
+import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.fragment.app.activityViewModels
@@ -13,7 +19,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.musclehack.targetedHypertrophyTraining.MainActivity
 import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.databinding.FragmentCreateNewSetBinding
-import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseSet
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 

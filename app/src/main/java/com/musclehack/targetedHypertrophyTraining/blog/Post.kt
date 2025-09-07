@@ -1,7 +1,7 @@
 package com.musclehack.targetedHypertrophyTraining.blog
 
 import android.graphics.Bitmap
-import java.util.*
+import java.util.Date
 
 /**
  * Created by juanito on 1/15/2018.

@@ -8,7 +8,12 @@ import com.musclehack.targetedHypertrophyTraining.WorkoutDataProto
 import com.musclehack.targetedHypertrophyTraining.core.dependencyInjection.AppModule.TrackerLocalDataSource
 import com.musclehack.targetedHypertrophyTraining.data.Result
 import com.musclehack.targetedHypertrophyTraining.data.source.TrackerDataSource
-import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.*
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Cycle
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseLog
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseNote
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseSet
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.TrainingPagerData
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Workout
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.training.LogCardModel
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.training.TimerChangeEvent
 import kotlinx.coroutines.CoroutineDispatcher

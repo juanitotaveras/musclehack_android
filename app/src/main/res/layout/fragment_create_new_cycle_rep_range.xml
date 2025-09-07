@@ -1,50 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:orientation="vertical"
-  android:focusableInTouchMode="true"
-  android:id="@+id/createNewCycleLinearLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:id="@+id/createNewCycleLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
     <LinearLayout
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:paddingBottom="0dp"
-      android:paddingTop="25dip">
-
-      <TextView
-        android:id="@+id/chooseRepRangeText"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:text="@string/choose_default_rep_range"
-        />
+        android:orientation="vertical"
+        android:paddingBottom="0dp"
+        android:paddingTop="25dip">
 
-      <RadioGroup
-        android:id="@+id/chooseRepRangeRadioGroup"
-        android:layout_width="345dip"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="6dip">
+        <TextView
+            android:id="@+id/chooseRepRangeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/choose_default_rep_range" />
 
-        <RadioButton
-          android:id="@+id/radio_8_to_12_reps"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/_8_to_12_reps"/>
+        <RadioGroup
+            android:id="@+id/chooseRepRangeRadioGroup"
+            android:layout_width="345dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dip">
 
-        <RadioButton
-          android:id="@+id/radio_6_to_8_reps"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/_6_to_8_reps"/>
+            <RadioButton
+                android:id="@+id/radio_8_to_12_reps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_8_to_12_reps" />
 
-      </RadioGroup>
+            <RadioButton
+                android:id="@+id/radio_6_to_8_reps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_6_to_8_reps" />
+
+        </RadioGroup>
     </LinearLayout>
 
 
-  </LinearLayout>
+</LinearLayout>

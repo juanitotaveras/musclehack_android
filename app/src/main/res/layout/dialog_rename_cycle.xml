@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:orientation="horizontal"
-              android:paddingLeft="20dip"
-              android:paddingStart="20dip"
-              android:paddingRight="20dip"
-              android:paddingEnd="20dip">
-  <EditText
-    android:id="@+id/renameCycleEditText"
-    android:layout_width="0dip"
-    android:layout_weight="90"
-    android:layout_height="wrap_content"/>
-  <!--<ImageButton-->
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="20dip"
+    android:paddingStart="20dip"
+    android:paddingRight="20dip"
+    android:paddingEnd="20dip">
+
+    <EditText
+        android:id="@+id/renameCycleEditText"
+        android:layout_width="0dip"
+        android:layout_weight="90"
+        android:layout_height="wrap_content" />
+    <!--<ImageButton-->
     <!--android:layout_width="0dip"-->
     <!--android:layout_weight="10"-->
     <!--android:layout_height="wrap_content"-->
     <!--android:src="@drawable/ic_cancel_black_24dp"/>-->
 
-  <!--<LinearLayout-->
+    <!--<LinearLayout-->
     <!--android:layout_width="match_parent"-->
     <!--android:layout_height="wrap_content"-->
     <!--android:layout_margin="4dp"-->
     <!--android:orientation="horizontal">-->
 
     <!--<TextView-->
-      <!--android:layout_width="match_parent"-->
-      <!--android:layout_height="wrap_content"-->
-      <!--android:text="Are you sure you want to delete?"/>-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Are you sure you want to delete?"/>-->
 
-  <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
 
 </LinearLayout>

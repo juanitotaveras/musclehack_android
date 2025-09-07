@@ -1,16 +1,9 @@
-/*
-Author: Juanito Taveras
-Created: 11/24/17
-Modified: 11/24/17 3/12/18
- */
-
 package com.musclehack.targetedHypertrophyTraining
 
 import android.Manifest
 import android.content.Intent
 import android.content.IntentFilter
 import android.content.SharedPreferences
-import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -24,7 +17,6 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.coordinatorlayout.widget.CoordinatorLayout
-import androidx.core.content.ContextCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -41,7 +33,11 @@ import com.musclehack.targetedHypertrophyTraining.databackup.BackupFragmentActiv
 import com.musclehack.targetedHypertrophyTraining.more.ContributeFragmentActivity
 import com.musclehack.targetedHypertrophyTraining.preferences.PreferenceActivity
 import com.musclehack.targetedHypertrophyTraining.testimonials.TestimonialsFragmentActivity
-import com.musclehack.targetedHypertrophyTraining.utilities.*
+import com.musclehack.targetedHypertrophyTraining.utilities.ContextErrorEvent
+import com.musclehack.targetedHypertrophyTraining.utilities.EXTRA_BLOG_LINK
+import com.musclehack.targetedHypertrophyTraining.utilities.EXTRA_IS_TIMER_INTENT
+import com.musclehack.targetedHypertrophyTraining.utilities.InternetConnectionErrorEvent
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_WORKOUT_TRACKER_STATE
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.SaveErrorEvent
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.home.TrackerHomeFragmentDirections
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts.TrackerWorkoutsFragmentDirections

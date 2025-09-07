@@ -13,7 +13,11 @@ import android.os.Vibrator
 import android.util.Log
 import androidx.preference.PreferenceManager
 import com.musclehack.targetedHypertrophyTraining.R
-import com.musclehack.targetedHypertrophyTraining.utilities.*
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_IMPORT_SOUND_ON
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_REST_TIME_DEFAULT_SOUND
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_REST_TIME_IMPORT_SOUND
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_REST_TIME_VIBRATION
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_REST_TIME_VOLUME
 import java.io.IOException
 
 /** Receiver to sound and vibrate alarm when timer has finished. */

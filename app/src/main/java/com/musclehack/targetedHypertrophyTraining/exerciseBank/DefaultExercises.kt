@@ -8,7 +8,6 @@ package com.musclehack.targetedHypertrophyTraining.exerciseBank
 
 import android.content.res.Resources
 import com.musclehack.targetedHypertrophyTraining.R
-import java.util.*
 
 class DefaultExercises/* might need an exercise list object */
     (private val res: Resources, private val pkg: String) {

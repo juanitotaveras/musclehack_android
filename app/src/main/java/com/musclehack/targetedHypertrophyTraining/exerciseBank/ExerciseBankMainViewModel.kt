@@ -7,14 +7,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.musclehack.targetedHypertrophyTraining.Event
-import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.data.Result
 import com.musclehack.targetedHypertrophyTraining.data.repository.ExerciseBankRepository
 import com.musclehack.targetedHypertrophyTraining.exerciseBank.entities.UserExercise
-import com.musclehack.targetedHypertrophyTraining.notifyObserver
 import com.musclehack.targetedHypertrophyTraining.utilities.PREF_SHOW_DELETE_EXERCISE_BANK_ITEM_WARNING
 import kotlinx.coroutines.launch
-import java.util.*
 import javax.inject.Inject
 
 /** This view model is only used for our Exercise Bank tab. */

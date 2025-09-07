@@ -1,48 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:id="@+id/loadingPanel"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:gravity="center_horizontal">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loadingPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
 
-  <ImageView
-    android:id="@+id/loadingImage"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:contentDescription="loading_sequence"
-    android:src="@drawable/loading001"/>
+    <ImageView
+        android:id="@+id/loadingImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="loading_sequence"
+        android:src="@drawable/loading001" />
 
-  <TextView
-    android:id="@+id/percentageText"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignBottom="@+id/loadingImage"
-    android:layout_centerHorizontal="true"
-    android:text="0%"
-    android:textSize="40sp"/>
-</RelativeLayout>
-  <!--<LinearLayout-->
-  <!--android:layout_width="match_parent"-->
-  <!--android:layout_height="match_parent"-->
-  <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
-  <!--android:orientation="vertical">-->
-  <!--<ImageView-->
-  <!--android:id="@+id/loadingImage"-->
-  <!--android:layout_width="wrap_content"-->
-  <!--android:layout_height="wrap_content"-->
-  <!--android:layout_gravity="center_horizontal"-->
-  <!--android:contentDescription="loading_sequence"-->
-  <!--android:src="@drawable/loading001"/>-->
+    <TextView
+        android:id="@+id/percentageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/loadingImage"
+        android:layout_centerHorizontal="true"
+        android:text="0%"
+        android:textSize="40sp" />
+</RelativeLayout><!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical">-->
+    <!--<ImageView-->
+    <!--android:id="@+id/loadingImage"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:contentDescription="loading_sequence"-->
+    <!--android:src="@drawable/loading001"/>-->
 
-  <!--<TextView-->
-  <!--android:id="@+id/percentageText"-->
-  <!--android:layout_width="wrap_content"-->
-  <!--android:layout_height="wrap_content"-->
-  <!--android:layout_gravity="center_horizontal"-->
-  <!--android:text="0%"-->
-  <!--android:textSize="40sp"/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/percentageText"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:text="0%"-->
+    <!--android:textSize="40sp"/>-->
 
-  <!--</LinearLayout>-->
+    <!--</LinearLayout>-->

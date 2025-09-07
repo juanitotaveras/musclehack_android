@@ -7,7 +7,11 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import com.google.common.truth.Truth.assertThat
 import com.musclehack.targetedHypertrophyTraining.MainCoroutineRule
-import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.*
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Cycle
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseLog
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseNote
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseSet
+import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Workout
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.After

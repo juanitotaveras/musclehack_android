@@ -2,10 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
+
         <import type="android.view.View" />
+
         <variable
             name="cycle"
             type="com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Cycle" />
+
         <variable
             name="viewmodel"
             type="com.musclehack.targetedHypertrophyTraining.workoutTracker.home.TrackerHomeViewModel" />
@@ -60,23 +63,23 @@
             android:textSize="16sp"
             android:background="?attr/selectableItemBackground"
             android:drawableLeft="@drawable/ic_timeline_black_24dp"
-            android:onClick="@{() -> viewmodel.onChangeCycleDurationClicked()}"/>
+            android:onClick="@{() -> viewmodel.onChangeCycleDurationClicked()}" />
 
         <TextView
-          android:id="@+id/cloneCycleOption"
-          android:layout_width="match_parent"
-          android:layout_height="@dimen/dp_48"
-          android:layout_marginEnd="@dimen/dp_16"
-          android:layout_marginStart="@dimen/dp_16"
-          android:backgroundTint="@android:color/white"
-          android:drawablePadding="@dimen/dp_32"
-          android:drawableStart="@drawable/ic_file_copy"
-          android:gravity="start|center_vertical"
-          android:text="@string/make_a_copy"
-          android:textSize="16sp"
-          android:background="?attr/selectableItemBackground"
-          android:drawableLeft="@drawable/ic_timeline_black_24dp"
-          android:onClick="@{() -> viewmodel.onCloneCycleClicked()}"/>
+            android:id="@+id/cloneCycleOption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:layout_marginStart="@dimen/dp_16"
+            android:backgroundTint="@android:color/white"
+            android:drawablePadding="@dimen/dp_32"
+            android:drawableStart="@drawable/ic_file_copy"
+            android:gravity="start|center_vertical"
+            android:text="@string/make_a_copy"
+            android:textSize="16sp"
+            android:background="?attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_timeline_black_24dp"
+            android:onClick="@{() -> viewmodel.onCloneCycleClicked()}" />
 
         <View
             android:layout_width="match_parent"
@@ -100,7 +103,7 @@
             android:textSize="16sp"
             android:background="?attr/selectableItemBackground"
             android:drawableLeft="@drawable/ic_delete_black_24dp"
-            android:onClick="@{() -> viewmodel.onDeleteCycleClicked()}"/>
+            android:onClick="@{() -> viewmodel.onDeleteCycleClicked()}" />
 
     </LinearLayout>
 </layout>

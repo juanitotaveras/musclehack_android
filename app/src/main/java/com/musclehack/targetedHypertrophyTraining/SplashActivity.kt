@@ -12,8 +12,17 @@ import android.os.Process
 import android.preference.PreferenceManager
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
-import com.musclehack.targetedHypertrophyTraining.utilities.*
-import java.util.*
+import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_TRACKER_HOME
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_CURRENT_TAB
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_CURRENT_TRACKER_SCREEN
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_INSTALL_DATE
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_LONG_SPLASH
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_REST_TIME_DEFAULT_SOUND
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_SHOW_DELETE_SET_WARNING
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_STARTS_SINCE_ASK_RATE
+import com.musclehack.targetedHypertrophyTraining.utilities.PREF_USER_RATED
+import com.musclehack.targetedHypertrophyTraining.utilities.TAB_TRACKER_HOME
+import java.util.Date
 import java.util.concurrent.atomic.AtomicReference
 
 class SplashActivity : AppCompatActivity() {

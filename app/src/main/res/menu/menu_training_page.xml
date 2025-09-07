@@ -1,16 +1,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-      tools:context="com.musclehack.targetedHypertrophyTraining.workoutTracker.training.TrainingPagerFragment">
-  <item
-    android:id="@+id/edit_sets"
-    android:orderInCategory="100"
-    android:title="@string/edit_sets"
-      app:showAsAction="ifRoom" />
-  <!--android:icon="@drawable/ic_edit_white_24dp"-->
-  <item
-    android:id="@+id/skipDay"
-    android:title="@string/skip_this_day"
-      app:showAsAction="never" />
+    tools:context="com.musclehack.targetedHypertrophyTraining.workoutTracker.training.TrainingPagerFragment">
+    <item
+        android:id="@+id/edit_sets"
+        android:orderInCategory="100"
+        android:title="@string/edit_sets"
+        app:showAsAction="ifRoom" />
+    <!--android:icon="@drawable/ic_edit_white_24dp"-->
+    <item
+        android:id="@+id/skipDay"
+        android:title="@string/skip_this_day"
+        app:showAsAction="never" />
 
 </menu>

@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/ic_coffee_0"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_1"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_2"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_3"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_4"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_5"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_6"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_7"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_8"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_9"
-        android:duration="200"/>
-    <item android:drawable="@drawable/ic_coffee_10"
-        android:duration="200"/>
+    <item
+        android:drawable="@drawable/ic_coffee_0"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_1"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_2"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_3"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_4"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_5"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_6"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_7"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_8"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_9"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/ic_coffee_10"
+        android:duration="200" />
 </animation-list>

@@ -4,7 +4,7 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.musclehack.targetedHypertrophyTraining.WorkoutDataProto
-import java.util.*
+import java.util.Calendar
 
 /**
  * Author: Juanito Taveras

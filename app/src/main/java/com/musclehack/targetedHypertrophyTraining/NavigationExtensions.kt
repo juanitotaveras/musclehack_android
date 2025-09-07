@@ -19,7 +19,6 @@ package com.musclehack.targetedHypertrophyTraining
 import android.content.Intent
 import android.util.SparseArray
 import androidx.core.util.forEach
-import androidx.core.util.set
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

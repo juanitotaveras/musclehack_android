@@ -4,9 +4,14 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
 import androidx.annotation.StringRes
-import com.musclehack.targetedHypertrophyTraining.R
-import androidx.lifecycle.*
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MediatorLiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.switchMap
+import androidx.lifecycle.viewModelScope
 import com.musclehack.targetedHypertrophyTraining.Event
+import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.data.Result
 import com.musclehack.targetedHypertrophyTraining.data.repository.ExerciseBankRepository
 import com.musclehack.targetedHypertrophyTraining.data.repository.TrackerRepository

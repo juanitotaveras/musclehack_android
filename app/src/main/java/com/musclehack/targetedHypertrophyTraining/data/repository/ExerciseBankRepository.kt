@@ -1,7 +1,7 @@
 package com.musclehack.targetedHypertrophyTraining.data.repository
 
-import com.musclehack.targetedHypertrophyTraining.exerciseBank.DefaultExercises
 import com.musclehack.targetedHypertrophyTraining.data.Result
+import com.musclehack.targetedHypertrophyTraining.exerciseBank.DefaultExercises
 import com.musclehack.targetedHypertrophyTraining.exerciseBank.entities.UserExercise
 
 interface ExerciseBankRepository {

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <data>
+    <data>
 
-  </data>
+    </data>
 
-  <LinearLayout
-      android:id="@+id/createNewCycleLinearLayout"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:paddingBottom="0dp"
-      android:paddingTop="20dip"
-      android:focusableInTouchMode="true">
-
-    <TextView
-        android:id="@+id/textView3"
+    <LinearLayout
+        android:id="@+id/createNewCycleLinearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:text="@string/name_your_cycle" />
+        android:orientation="vertical"
+        android:paddingBottom="0dp"
+        android:paddingTop="20dip"
+        android:focusableInTouchMode="true">
 
-    <EditText
-        android:id="@+id/cycleNameTextBox"
-        android:layout_width="335dp"
-        android:layout_height="47dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="6dip"
-        android:ems="10"
-        android:hint="@string/create_cycle_hint"
-        android:inputType="textPersonName" />
-  </LinearLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/name_your_cycle" />
+
+        <EditText
+            android:id="@+id/cycleNameTextBox"
+            android:layout_width="335dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dip"
+            android:ems="10"
+            android:hint="@string/create_cycle_hint"
+            android:inputType="textPersonName" />
+    </LinearLayout>
 </layout>

@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-  <PreferenceCategory
-    android:title="Rest timer">
-    <SwitchPreference
-      android:defaultValue="true"
-      android:key="restTimeVibration"
-      android:title="Vibration"/>
-    <SwitchPreference
-      android:defaultValue="true"
-      android:key="restNotifications"
-      android:title="Push notification"/>
-    <ListPreference
-      android:title="Rest time finished sound selection"
-      android:summary="Select what you want to hear when it's time to start the next exercise"
-      android:key="restTimeDefaultSound"
-      android:defaultValue="2"
-      android:entries="@array/soundNames"
-      android:entryValues="@array/soundIDs" />
+    <PreferenceCategory android:title="Rest timer">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="restTimeVibration"
+            android:title="Vibration" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="restNotifications"
+            android:title="Push notification" />
+        <ListPreference
+            android:title="Rest time finished sound selection"
+            android:summary="Select what you want to hear when it's time to start the next exercise"
+            android:key="restTimeDefaultSound"
+            android:defaultValue="2"
+            android:entries="@array/soundNames"
+            android:entryValues="@array/soundIDs" />
 
-  </PreferenceCategory>
-  <PreferenceCategory
-    android:title="New content notifications">
-    <SwitchPreference
-      android:defaultValue="true"
-      android:key="notificationPreference"
-      android:title="Enable notifications"
-      android:summary="Get notified of Mark's latest content."/>
-  </PreferenceCategory>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="New content notifications">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notificationPreference"
+            android:title="Enable notifications"
+            android:summary="Get notified of Mark's latest content." />
+    </PreferenceCategory>
 </PreferenceScreen>

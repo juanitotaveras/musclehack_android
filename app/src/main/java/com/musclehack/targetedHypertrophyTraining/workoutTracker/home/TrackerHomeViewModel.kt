@@ -1,7 +1,11 @@
 package com.musclehack.targetedHypertrophyTraining.workoutTracker.home
 
 import android.content.SharedPreferences
-import androidx.lifecycle.*
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.map
+import androidx.lifecycle.viewModelScope
 import com.musclehack.targetedHypertrophyTraining.Event
 import com.musclehack.targetedHypertrophyTraining.data.repository.TrackerRepository
 import com.musclehack.targetedHypertrophyTraining.utilities.PREF_STARTS_SINCE_ASK_RATE

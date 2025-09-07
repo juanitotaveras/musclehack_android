@@ -1,10 +1,10 @@
 <menu xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-      tools:context="com.musclehack.targetedHypertrophyTraining.EditSetsActivity">
-  <item
-    android:icon="@drawable/ic_sort_white_24dp"
-    android:id="@+id/sortSetsIcon"
-    android:title="@string/sort"
-    app:showAsAction="ifRoom|withText"/>
+    tools:context="com.musclehack.targetedHypertrophyTraining.EditSetsActivity">
+    <item
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:id="@+id/sortSetsIcon"
+        android:title="@string/sort"
+        app:showAsAction="ifRoom|withText" />
 </menu>

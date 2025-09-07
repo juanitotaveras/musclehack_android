@@ -28,12 +28,12 @@
     <string name="alarm_permission_message">To provide accurate rest timer notifications during your workouts, this app needs permission to schedule exact alarms. This ensures you get notified precisely when your rest period is over.\n\nTap \"Settings\" to grant permission.</string>
     <string name="alarm_permission_settings">Settings</string>
     <string name="alarm_permission_cancel">Cancel</string>
-    
+
     <string name="rest_timer_setup_title">Rest Timer Setup</string>
     <string name="rest_timer_setup_message">Rest timers help you maintain optimal training intensity by alerting you when rest periods are complete.\n\nTo ensure accurate notifications, we need permission to schedule precise alarms. This is only used for workout rest timers.</string>
     <string name="rest_timer_setup_enable">Enable Timers</string>
     <string name="rest_timer_setup_skip">Skip for Now</string>
-    
+
     <string name="timer_permission_denied_title">Timer Permission Required</string>
     <string name="timer_permission_denied_message">Rest timers require exact alarm permission to work accurately. Without this permission, timer notifications may be delayed or unreliable.\n\nYou can enable this in Settings > Apps > MuscleHack > Permissions.</string>
 
@@ -267,8 +267,8 @@
     <string name="swipe_right_prompt">Swipe right prompt</string>
     <string name="save_error_prompt">There was a problem saving your information. Please refresh the page.</string>
     <string name="internet_connection_error">There was a problem with your Internet connection. Please try again later.</string>
-  <string name="no_notification_permission_error">Timer notification can\'t be shown due to no permission.</string>
-  <string name="context_error_prompt">There\'s been an unexpected error. Please refresh the page.</string>
+    <string name="no_notification_permission_error">Timer notification can\'t be shown due to no permission.</string>
+    <string name="context_error_prompt">There\'s been an unexpected error. Please refresh the page.</string>
     <string name="min_reps_dialog_text">Minimum reps:</string>
     <string name="max_reps_dialog_text">Maximum reps:</string>
     <string name="repeat_input_warning">Number must be between 1 and 7.</string>
@@ -307,27 +307,27 @@
     <string name="contributionHeaderText">A word from the developer:</string>
     <string name="begText1">Creating and maintaining the MuscleHack app costs time and money (and many cups of coffee).</string>
     <string name="begText2">If you\'ve enjoyed using this app and want it to keep improving, please help me out with a small contribution.  Even a little helps!</string>
-  <string name="donationDirectionText">Where to send donations:</string>
+    <string name="donationDirectionText">Where to send donations:</string>
     <string name="priceLabelText">Paypal: paypal.me/juanitotaveras\n\nVenmo: @Juanito-Taveras</string>
     <string name="contributionThankYouText">Thank you for your contribution of %s dollars. More updates to the MuscleHack app are coming soon!</string>
     <string name="choose_ex_sub_type_dialog_header">Choose where to replace this exercise</string>
     <string name="tap_to_see_latest_pics">See real Before/After T.H.T. transformation pics</string>
     <string name="see_pics_button_text">See pics</string>
     <string name="title_activity_testimonials_fragment">TestimonialsFragmentActivity</string>
-  <string name="add_note_button">Add note</string>
-  <string name="edit_note_button">Edit note</string>
-  <string name="prev_note_button">Prev note</string>
-  <string name="share">Share</string>
-  <string name="done_button_text">Done</string>
-  <string name="rest_volume_summary">"Volume level set to %s"</string>
+    <string name="add_note_button">Add note</string>
+    <string name="edit_note_button">Edit note</string>
+    <string name="prev_note_button">Prev note</string>
+    <string name="share">Share</string>
+    <string name="done_button_text">Done</string>
+    <string name="rest_volume_summary">"Volume level set to %s"</string>
     <string name="title_activity_about">About</string>
-  <string name="created">Created </string>
-  <string name="open_link_confirmation">Do you want to open this link?</string>
+    <string name="created">Created </string>
+    <string name="open_link_confirmation">Do you want to open this link?</string>
     <string name="signed_in_backup_text_1"><![CDATA[You are signed in to your Google account. Your workout data will be backed up to your Google Drive account every 24 hours. Make sure you go to your Google Drive app, and turn on System Backup in Settings > System > Backup.]]></string>
-  <string name="signed_in_backup_text_2">To get your workout data on another device, sign in on that device, and your workout data will be restored.</string>
-  <string name="make_a_copy">Make a copy</string>
-  <string name="exercise_subsituted_for_one_day_successfully">Exercise substituted for one day successfully.</string>
-  <string name="failed_to_substitute_exercise">Failed to substitute exercise.</string>
-  <string name="new_exercise_added_to_bankn">New exercise added to bank.</string>
+    <string name="signed_in_backup_text_2">To get your workout data on another device, sign in on that device, and your workout data will be restored.</string>
+    <string name="make_a_copy">Make a copy</string>
+    <string name="exercise_subsituted_for_one_day_successfully">Exercise substituted for one day successfully.</string>
+    <string name="failed_to_substitute_exercise">Failed to substitute exercise.</string>
+    <string name="new_exercise_added_to_bankn">New exercise added to bank.</string>
 
 </resources>

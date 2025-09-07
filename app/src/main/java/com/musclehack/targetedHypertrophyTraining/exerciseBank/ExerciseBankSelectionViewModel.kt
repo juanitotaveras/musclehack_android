@@ -7,12 +7,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.musclehack.targetedHypertrophyTraining.Event
-import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.data.Result
 import com.musclehack.targetedHypertrophyTraining.data.repository.ExerciseBankRepository
 import com.musclehack.targetedHypertrophyTraining.exerciseBank.entities.UserExercise
 import kotlinx.coroutines.launch
-import java.util.*
 import javax.inject.Inject
 
 class ExerciseBankSelectionViewModel @Inject constructor(

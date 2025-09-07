@@ -3,7 +3,13 @@ package com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.*
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MediatorLiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.map
+import androidx.lifecycle.switchMap
+import androidx.lifecycle.viewModelScope
 import com.musclehack.targetedHypertrophyTraining.Event
 import com.musclehack.targetedHypertrophyTraining.data.Result
 import com.musclehack.targetedHypertrophyTraining.data.repository.TrackerRepository

@@ -3,11 +3,11 @@
     <item
         android:id="@+id/testimonials_option"
         android:icon="@drawable/medal_icon"
-        android:title="@string/testimonials_title"/>
+        android:title="@string/testimonials_title" />
     <item
         android:id="@+id/backup_option"
         android:icon="@drawable/cloud_icon"
-        android:title="@string/online_backup_title"/>
+        android:title="@string/online_backup_title" />
     <item
         android:id="@+id/contribute_option"
         android:icon="@drawable/ic_coffee_0"
@@ -16,10 +16,10 @@
     <item
         android:id="@+id/settings_option"
         android:icon="@drawable/settings_icon"
-        android:title="@string/settings"/>
+        android:title="@string/settings" />
 
     <item
         android:id="@+id/about_option"
         android:icon="@drawable/ic_info_white_24dp"
-        android:title="@string/about"/>
+        android:title="@string/about" />
 </menu>

@@ -1,74 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <data>
-    <import type="android.view.View" />
-    <variable
-        name="cycle"
-        type="com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Cycle" />
-    <import type="androidx.core.content.ContextCompat" />
-    <variable
-        name="viewmodel"
-        type="com.musclehack.targetedHypertrophyTraining.workoutTracker.home.TrackerHomeViewModel" />
-  </data>
+    <data>
 
-  <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/cycleListItemBackground"
-      android:background="@color/white">
-  <RelativeLayout
-      android:id="@+id/cycleListItemContainer"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:paddingBottom="10dip"
-      android:paddingEnd="9dip"
-      android:paddingLeft="10dip"
-      android:paddingRight="9dip"
-      android:paddingStart="10dip"
-      android:paddingTop="10dip"
-      android:orientation="horizontal"
-      android:onClick="@{() -> viewmodel.openCycle(cycle.id)}"
-      android:background="?android:attr/selectableItemBackground">
+        <import type="android.view.View" />
+
+        <variable
+            name="cycle"
+            type="com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Cycle" />
+
+        <import type="androidx.core.content.ContextCompat" />
+
+        <variable
+            name="viewmodel"
+            type="com.musclehack.targetedHypertrophyTraining.workoutTracker.home.TrackerHomeViewModel" />
+    </data>
 
     <LinearLayout
-        android:id="@+id/cycle_name_group"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:orientation="vertical">
+        android:id="@+id/cycleListItemBackground"
+        android:background="@color/white">
 
-      <TextView
-          android:id="@+id/cycle_list_header"
-          android:layout_width="fill_parent"
-          android:layout_height="wrap_content"
-          android:textColor="@color/colorMainText"
-          android:textSize="20sp"
-          android:text="@{cycle.name}"/>
+        <RelativeLayout
+            android:id="@+id/cycleListItemContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingEnd="9dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="9dip"
+            android:paddingStart="10dip"
+            android:paddingTop="10dip"
+            android:orientation="horizontal"
+            android:onClick="@{() -> viewmodel.openCycle(cycle.id)}"
+            android:background="?android:attr/selectableItemBackground">
 
-      <TextView
-          android:id="@+id/cycle_list_date"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:textSize="15sp"
-          android:textColor="@color/colorSubText" />
+            <LinearLayout
+                android:id="@+id/cycle_name_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
 
+                <TextView
+                    android:id="@+id/cycle_list_header"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorMainText"
+                    android:textSize="20sp"
+                    android:text="@{cycle.name}" />
+
+                <TextView
+                    android:id="@+id/cycle_list_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorSubText" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/optionsIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/cycle_name_group"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/options_icon"
+                android:src="@drawable/ic_options_icon" />
+
+        </RelativeLayout>
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/optionsIcon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@id/cycle_name_group"
-      android:background="?android:attr/selectableItemBackground"
-        android:contentDescription="@string/options_icon"
-        android:src="@drawable/ic_options_icon"/>
-
-  </RelativeLayout>
-  </LinearLayout>
 </layout>

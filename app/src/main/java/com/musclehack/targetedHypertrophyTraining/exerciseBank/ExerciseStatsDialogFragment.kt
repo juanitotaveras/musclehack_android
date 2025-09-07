@@ -17,7 +17,7 @@ import com.jjoe64.graphview.series.LineGraphSeries
 import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.utilities.KEY_EXERCISE_NAME
 import com.musclehack.targetedHypertrophyTraining.utilities.PREF_INSTALL_DATE
-import java.util.*
+import java.util.Date
 
 /**
  * Created by juanito on 3/13/2018.

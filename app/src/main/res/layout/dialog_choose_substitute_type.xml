@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_height="match_parent"
-android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
     android:orientation="vertical">
 
     <TextView
@@ -11,8 +10,7 @@ android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
-        android:text="Change exercise:"
-        />
+        android:text="Change exercise:" />
 
     <RadioGroup
         android:id="@+id/chooseSubRadioGroup"
@@ -26,13 +24,13 @@ android:layout_width="match_parent"
             android:id="@+id/radioChangeForThisDay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="for this day only"/>
+            android:text="for this day only" />
 
         <RadioButton
             android:id="@+id/radioChangeForEntireCycle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="for the entire training cycle (every day)"/>
+            android:text="for the entire training cycle (every day)" />
 
     </RadioGroup>
 

@@ -1,7 +1,14 @@
 package com.musclehack.targetedHypertrophyTraining.workoutTracker.edit
 
 import android.os.Bundle
-import android.view.*
+import android.view.ContextMenu
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
+import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
@@ -18,13 +25,11 @@ import com.musclehack.targetedHypertrophyTraining.MainActivity
 import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.databinding.FragmentEditSetsBinding
 import com.musclehack.targetedHypertrophyTraining.setupSnackbar
-import com.musclehack.targetedHypertrophyTraining.showSnackbar
 import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_CHANGE_REP_RANGE
 import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_CHANGE_REST_TIME
 import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_CHANGE_SET_EXERCISE
 import com.musclehack.targetedHypertrophyTraining.utilities.FRAG_CONFIRM_DELETE_SET
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.CustomExerciseAddedEvent
-import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseSet
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 

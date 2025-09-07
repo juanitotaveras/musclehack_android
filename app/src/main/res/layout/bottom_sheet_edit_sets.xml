@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android" >
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
     <data>
+
         <variable
             name="viewmodel"
             type="com.musclehack.targetedHypertrophyTraining.workoutTracker.edit.EditSetsViewModel" />
+
         <variable
             name="exerciseset"
             type="com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.ExerciseSet" />
     </data>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +27,7 @@
             android:gravity="center"
             android:text="@{exerciseset.getName()}"
             android:textSize="16sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/changeExerciseOption"

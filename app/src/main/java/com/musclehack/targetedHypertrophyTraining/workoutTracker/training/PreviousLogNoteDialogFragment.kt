@@ -10,7 +10,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.musclehack.targetedHypertrophyTraining.databinding.DialogPrevLogNoteBinding
 import dagger.android.support.DaggerDialogFragment
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Date
+import java.util.Locale
 import javax.inject.Inject
 
 /**

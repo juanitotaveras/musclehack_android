@@ -4,7 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+
         <import type="android.view.View" />
+
         <variable
             name="viewmodel"
             type="com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts.TrackerWorkoutsViewModel" />
@@ -38,8 +40,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:workouts="@{viewmodel.workouts}"
-            />
+            app:workouts="@{viewmodel.workouts}" />
 
         <WebView
             android:id="@+id/helpWebView"
@@ -47,7 +48,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/input_text_border"
-            />
+            android:background="@drawable/input_text_border" />
     </RelativeLayout>
 </layout>
