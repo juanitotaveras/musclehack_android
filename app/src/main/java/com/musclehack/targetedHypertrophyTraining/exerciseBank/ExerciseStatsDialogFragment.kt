@@ -19,9 +19,6 @@ import com.musclehack.targetedHypertrophyTraining.utilities.KEY_EXERCISE_NAME
 import com.musclehack.targetedHypertrophyTraining.utilities.PREF_INSTALL_DATE
 import java.util.Date
 
-/**
- * Created by juanito on 3/13/2018.
- */
 class ExerciseStatsDialogFragment : androidx.fragment.app.DialogFragment(),
     DialogInterface.OnClickListener {
     companion object {

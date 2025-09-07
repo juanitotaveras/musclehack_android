@@ -33,12 +33,9 @@ import com.musclehack.targetedHypertrophyTraining.databackup.BackupFragmentActiv
 import com.musclehack.targetedHypertrophyTraining.more.ContributeFragmentActivity
 import com.musclehack.targetedHypertrophyTraining.preferences.PreferenceActivity
 import com.musclehack.targetedHypertrophyTraining.testimonials.TestimonialsFragmentActivity
-import com.musclehack.targetedHypertrophyTraining.utilities.ContextErrorEvent
 import com.musclehack.targetedHypertrophyTraining.utilities.EXTRA_BLOG_LINK
 import com.musclehack.targetedHypertrophyTraining.utilities.EXTRA_IS_TIMER_INTENT
-import com.musclehack.targetedHypertrophyTraining.utilities.InternetConnectionErrorEvent
 import com.musclehack.targetedHypertrophyTraining.utilities.PREF_WORKOUT_TRACKER_STATE
-import com.musclehack.targetedHypertrophyTraining.workoutTracker.SaveErrorEvent
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.home.TrackerHomeFragmentDirections
 import com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts.TrackerWorkoutsFragmentDirections
 import dagger.android.support.DaggerAppCompatActivity
@@ -162,36 +159,6 @@ class MainActivity : DaggerAppCompatActivity(), BottomNavigationActivity {
     /** Called to clear our Floating Action Button */
     fun clearFab() {
         findViewById<FloatingActionButton>(R.id.fab)?.visibility = View.GONE
-    }
-
-    fun onSaveError(event: SaveErrorEvent) {
-        val toast = Toast.makeText(
-            this,
-            String.format(getString(R.string.save_error_prompt)),
-            Toast.LENGTH_LONG
-        )
-        toast.setGravity(Gravity.TOP, 0, 150)
-        toast.show()
-    }
-
-    fun onContextError(event: ContextErrorEvent) {
-        val toast = Toast.makeText(
-            this,
-            String.format(getString(R.string.save_error_prompt)),
-            Toast.LENGTH_LONG
-        )
-        toast.setGravity(Gravity.TOP, 0, 150)
-        toast.show()
-    }
-
-    fun onInternetConnectionError(event: InternetConnectionErrorEvent) {
-        val toast = Toast.makeText(
-            this,
-            String.format(getString(R.string.internet_connection_error)),
-            Toast.LENGTH_LONG
-        )
-        toast.setGravity(Gravity.TOP, 0, 250)
-        toast.show()
     }
 
     @RequiresApi(Build.VERSION_CODES.M)

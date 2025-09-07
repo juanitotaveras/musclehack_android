@@ -20,7 +20,7 @@ class AboutViewModel @Inject constructor(
             if (result is Result.Success) {
                 liveData.value = result.data
             } else {
-                // update ui with error
+                println("Error!")
             }
         }
         liveData

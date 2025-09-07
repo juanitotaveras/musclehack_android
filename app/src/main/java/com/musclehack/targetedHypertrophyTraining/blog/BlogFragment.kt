@@ -40,14 +40,13 @@ class BlogFragment : DaggerFragment() {
         setHasOptionsMenu(true)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         setupListAdapter()
         (activity as? MainActivity)?.findViewById<FloatingActionButton>(R.id.fab)?.visibility =
             View.GONE
         setupNavigation()
         viewModel.start()
-        checkForNotificationLink()
     }
 
     private fun setupListAdapter() {
@@ -73,14 +72,14 @@ class BlogFragment : DaggerFragment() {
 
     private fun setupNavigation() {
         viewModel.postClickedEvent.observe(
-            viewLifecycleOwner,
-            androidx.lifecycle.Observer { event ->
-                event.getContentIfNotHandled()?.let { link ->
-                    context?.let { ctxt ->
-                        BrowserUtils.openUrlInChromeCustomTabs(ctxt, link)
-                    }
+            viewLifecycleOwner
+        ) { event ->
+            event.getContentIfNotHandled()?.let { link ->
+                context?.let { ctxt ->
+                    BrowserUtils.openUrlInChromeCustomTabs(ctxt, link)
                 }
-            })
+            }
+        }
         viewModel.openNotificationLinkEvent.observe(viewLifecycleOwner, Observer { event ->
             event.getContentIfNotHandled()?.let { link ->
                 context?.let { ctxt ->
@@ -88,19 +87,6 @@ class BlogFragment : DaggerFragment() {
                 }
             }
         })
-    }
-
-    /** If user has tapped on a notification, we can ask the user
-     * if they want to open their browser to view the content.*/
-    private fun checkForNotificationLink() {
-        if (viewModel.hasNotificationLinkReady()) {
-//            ConfirmOpenNotificationLinkDialogFragment().show(
-//                    (context as AppCompatActivity).supportFragmentManager,
-//                    FRAG_CONFIRM_OPEN_NOTIFICATION
-//            )
-//            viewModel.notificationDialogHasBeenShown()
-            viewModel.openNotificationLinkWithoutShowingDialog()
-        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -112,35 +98,11 @@ class BlogFragment : DaggerFragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         viewDataBinding = FragmentBlogBinding.inflate(inflater, container, false).apply {
             viewmodel = viewModel
         }
         return viewDataBinding.root
-    }
-
-    /* MARK-: Options menu */
-
-    fun getFacebookPageURL(context: Context): String {
-        val packageManager: PackageManager = context.packageManager
-        try {
-            val versionCode: Int =
-                packageManager.getPackageInfo("com.facebook.katana", 0).versionCode
-
-            val activated: Boolean =
-                packageManager.getApplicationInfo("com.facebook.katana", 0).enabled
-            if (activated) {
-                if ((versionCode >= 3002850)) { // Facebook newer version
-                    return "fb://facewebmodal/f?href=" + "https://www.facebook.com/MuscleHack"
-                } else {
-                    return "fb://page/Musclehack" // page ID
-                }
-            } else {
-                return "https://www.facebook.com/MuscleHack"
-            }
-        } catch (e: PackageManager.NameNotFoundException) {
-            return "https://www.facebook.com/MuscleHack"
-        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
