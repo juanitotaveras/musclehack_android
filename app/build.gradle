@@ -32,8 +32,8 @@ android {
         applicationId "com.musclehack.targetedHypertrophyTraining"
         minSdkVersion 21
         targetSdkVersion 35
-        versionCode 83
-        versionName "3.3.0"
+        versionCode 85
+        versionName "3.3.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.generatedDensities = ['hdpi', 'xxhdpi']
         multiDexEnabled true

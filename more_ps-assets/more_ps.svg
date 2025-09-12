@@ -1,24 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="-7.543 -7.543 527.086 527.086">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #0e0e0e;
-      }
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="-7.543 -7.543 527.086 527.086">
+    <defs>
+        <style>
+            .cls-1 {
+            fill: #0e0e0e;
+            }
 
-      .cls-2 {
-        fill: none;
-        stroke: #0e0e0e;
-        stroke-width: 22.38px;
-      }
-    </style>
-    <clipPath id="clip-path">
-      <rect width="512" height="512"/>
-    </clipPath>
-  </defs>
-  <g clip-path="url(#clip-path)">
-    <ellipse class="cls-1" cx="385" cy="256" rx="31" ry="29"/>
-    <ellipse id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" cx="256" cy="256" rx="31" ry="29"/>
-    <ellipse id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-1" cx="127" cy="256" rx="31" ry="29"/>
-    <ellipse class="cls-2" cx="257.5" cy="253" rx="236.5" ry="236"/>
-  </g>
+            .cls-2 {
+            fill: none;
+            stroke: #0e0e0e;
+            stroke-width: 22.38px;
+            }
+        </style>
+        <clipPath id="clip-path">
+            <rect width="512" height="512" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip-path)">
+        <ellipse class="cls-1" cx="385" cy="256" rx="31" ry="29" />
+        <ellipse id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" cx="256" cy="256"
+            rx="31" ry="29" />
+        <ellipse id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-1" cx="127" cy="256"
+            rx="31" ry="29" />
+        <ellipse class="cls-2" cx="257.5" cy="253" rx="236.5" ry="236" />
+    </g>
 </svg>

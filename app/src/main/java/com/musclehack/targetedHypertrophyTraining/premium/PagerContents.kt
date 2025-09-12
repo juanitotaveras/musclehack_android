@@ -5,7 +5,7 @@ class PagerContents {
     private var baseFolder: String? = null
 
     val itemCount: Int
-        get() =  items?.size ?: 0
+        get() = items?.size ?: 0
 
     fun setBaseAssetPath(folderName: String) {
         this.baseFolder = folderName

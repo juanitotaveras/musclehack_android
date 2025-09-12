@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.TranslateAnimation
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
@@ -36,7 +38,15 @@ class TestimonialsFragment : DaggerFragment() {
             .inflate(inflater, container, false).apply {}
         viewDataBinding.swipePrompt.visibility =
             if (viewModel.shouldShowSwipePrompt()) View.VISIBLE else View.GONE
-        return viewDataBinding.root
+        val view = viewDataBinding.root
+        ViewCompat.setOnApplyWindowInsetsListener(view) { v, windowInsets ->
+            val insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(insets.left, insets.top, insets.right, insets.bottom)
+            // Return CONSUMED if you don't want the window insets to keep passing down
+            // to descendant views.
+            return@setOnApplyWindowInsetsListener WindowInsetsCompat.CONSUMED
+        }
+        return view
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

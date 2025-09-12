@@ -10,7 +10,8 @@ class PreferenceActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         title = getString(R.string.settings)
         if (supportFragmentManager.findFragmentById(android.R.id.content) == null) {
-            supportFragmentManager.beginTransaction().add(android.R.id.content, PreferenceDisplay())
+            supportFragmentManager.beginTransaction()
+                .add(android.R.id.content, PreferenceFragment())
                 .commit()
         }
     }

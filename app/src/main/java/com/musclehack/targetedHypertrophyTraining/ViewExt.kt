@@ -21,8 +21,6 @@ package com.musclehack.targetedHypertrophyTraining
  */
 
 import android.view.View
-import androidx.core.content.ContextCompat
-import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer

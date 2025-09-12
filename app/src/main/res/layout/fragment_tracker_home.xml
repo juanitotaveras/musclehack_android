@@ -17,58 +17,6 @@
         android:layout_height="match_parent"
         android:background="@color/listBackgroundGray">
 
-        <!--    <ProgressBar-->
-        <!--        android:id="@+id/cycleTrackerHomeProgress"-->
-        <!--        style="?android:attr/progressBarStyle"-->
-        <!--        android:layout_width="wrap_content"-->
-        <!--        android:layout_height="wrap_content"-->
-        <!--        android:layout_centerHorizontal="true"-->
-        <!--        android:layout_centerVertical="true"-->
-        <!--        android:visibility="gone" />-->
-        <!--    <LinearLayout-->
-        <!--        android:id="@+id/seePicsBox"-->
-
-        <!--        android:layout_width="match_parent"-->
-        <!--        android:layout_height="wrap_content"-->
-        <!--        android:orientation="vertical"-->
-        <!--        android:layout_alignParentTop="true">-->
-
-        <!--      <RelativeLayout-->
-        <!--          android:layout_width="match_parent"-->
-        <!--          android:layout_height="fill_parent"-->
-        <!--          android:background="@color/white"-->
-        <!--          android:padding="9dip"-->
-        <!--          android:visibility="visible">-->
-
-        <!--        <TextView-->
-        <!--            android:id="@+id/seePicsText"-->
-        <!--            android:layout_width="wrap_content"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_alignParentStart="true"-->
-        <!--            android:layout_alignParentLeft="true"-->
-        <!--            android:layout_marginLeft="15dip"-->
-        <!--            android:layout_marginStart="15dip"-->
-        <!--            android:layout_toStartOf="@id/seePicsButton"-->
-        <!--            android:layout_toLeftOf="@id/seePicsButton"-->
-        <!--            android:layout_centerVertical="true"-->
-        <!--            android:text="@string/tap_to_see_latest_pics"-->
-        <!--            android:textSize="15sp" />-->
-
-        <!--        <Button-->
-        <!--            android:id="@+id/seePicsButton"-->
-        <!--            android:layout_width="wrap_content"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_alignParentEnd="true"-->
-        <!--            android:layout_alignParentRight="true"-->
-        <!--            android:layout_centerVertical="true"-->
-        <!--            android:layout_marginLeft="2dip"-->
-        <!--            android:layout_marginStart="2dip"-->
-        <!--            android:text="@string/see_pics_button_text"-->
-        <!--            style="@style/AppTheme.ButtonPrimary" />-->
-        <!--      </RelativeLayout>-->
-
-        <!--    </LinearLayout>-->
-
         <LinearLayout
             android:id="@+id/optInBox"
             android:layout_alignParentTop="true"

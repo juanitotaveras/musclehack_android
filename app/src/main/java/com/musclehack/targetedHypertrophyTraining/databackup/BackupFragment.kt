@@ -8,9 +8,11 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import com.roomdbexportimport.RoomDBExportImport
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.data.source.local.AppDatabase
+import com.roomdbexportimport.RoomDBExportImport
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 
@@ -58,8 +60,17 @@ class BackupFragment : DaggerFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_backup, container, false)
+        val view = inflater.inflate(R.layout.fragment_backup, container, false)
+        ViewCompat.setOnApplyWindowInsetsListener(view) { v, windowInsets ->
+            val insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(insets.left, insets.top, insets.right, insets.bottom)
+            // Return CONSUMED if you don't want the window insets to keep passing down
+            // to descendant views.
+            return@setOnApplyWindowInsetsListener WindowInsetsCompat.CONSUMED
+        }
+        return view
     }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

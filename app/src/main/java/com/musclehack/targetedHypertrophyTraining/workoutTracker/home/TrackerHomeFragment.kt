@@ -8,7 +8,6 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.PopupMenu
 import androidx.fragment.app.activityViewModels
@@ -36,7 +35,6 @@ class TrackerHomeFragment : DaggerFragment() {
 
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory
-    private var progressIndicator: ProgressBar? = null
     private lateinit var listAdapter: CyclesAdapter2
     private lateinit var viewDataBinding: FragmentTrackerHomeBinding
     private val viewModel by activityViewModels<TrackerHomeViewModel> { viewModelFactory }
@@ -155,14 +153,11 @@ class TrackerHomeFragment : DaggerFragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         viewDataBinding = FragmentTrackerHomeBinding
             .inflate(inflater, container, false).apply {
                 viewmodel = viewModel
             }
-//        viewDataBinding.seePicsButton.setOnClickListener {
-//            activity?.startActivity(Intent(activity, TestimonialsFragmentActivity::class.java))
-//        }
         viewDataBinding.optInButton.setOnClickListener {
             val i = Intent(context, OptInActivity::class.java)
             i.putExtra(EXTRA_FILE, "file:///android_asset/misc/optin.html")
