@@ -1,9 +1,3 @@
-/*
-Author: Juanito Taveras
-Created: 11/24/17
-Modified: 11/24/17
- */
-
 package com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts
 
 import android.app.AlertDialog

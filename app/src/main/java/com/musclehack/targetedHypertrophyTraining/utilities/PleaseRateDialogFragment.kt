@@ -10,11 +10,6 @@ import android.util.Patterns
 import android.view.View
 import com.musclehack.targetedHypertrophyTraining.R
 
-/**
- * Created by juanito on 1/16/2018.
- *
- */
-
 class PleaseRateDialogFragment : androidx.fragment.app.DialogFragment(),
     DialogInterface.OnClickListener {
     private lateinit var form: View

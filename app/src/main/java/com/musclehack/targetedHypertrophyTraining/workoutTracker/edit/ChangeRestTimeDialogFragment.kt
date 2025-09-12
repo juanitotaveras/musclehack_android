@@ -12,11 +12,6 @@ import com.musclehack.targetedHypertrophyTraining.R
 import dagger.android.support.DaggerDialogFragment
 import javax.inject.Inject
 
-/**
- * Created by juanito on 1/3/2018.
- *
- */
-
 class ChangeRestTimeDialogFragment : DaggerDialogFragment(), DialogInterface.OnClickListener {
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory

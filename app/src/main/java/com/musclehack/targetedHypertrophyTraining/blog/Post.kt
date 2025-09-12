@@ -3,11 +3,6 @@ package com.musclehack.targetedHypertrophyTraining.blog
 import android.graphics.Bitmap
 import java.util.Date
 
-/**
- * Created by juanito on 1/15/2018.
- * Modified 1/24/2018
- */
-
 class Post(
     val title: String, val link: String, val pubDate: Date, val description: String,
     val imageURL: String

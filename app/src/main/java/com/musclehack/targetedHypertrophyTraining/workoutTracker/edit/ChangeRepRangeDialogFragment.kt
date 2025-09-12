@@ -13,11 +13,6 @@ import com.musclehack.targetedHypertrophyTraining.workoutTracker.entities.Exerci
 import dagger.android.support.DaggerDialogFragment
 import javax.inject.Inject
 
-/**
- * Created by juanito on 1/3/2018.
- *
- */
-
 class ChangeRepRangeDialogFragment : DaggerDialogFragment(), DialogInterface.OnClickListener {
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory

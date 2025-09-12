@@ -25,11 +25,6 @@ import com.musclehack.targetedHypertrophyTraining.premium.PagerContentsAdapter
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 
-/**
- * Created by juanito on 1/9/2018.
- *
- */
-
 class BookPagerFragment : DaggerFragment() {
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory

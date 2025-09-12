@@ -14,11 +14,6 @@ import java.util.Date
 import java.util.Locale
 import javax.inject.Inject
 
-/**
- * Created by juanito on 1/3/2018.
- *
- */
-
 class PreviousLogNoteDialogFragment : DaggerDialogFragment(), DialogInterface.OnClickListener {
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory

@@ -35,12 +35,6 @@ import java.lang.ref.WeakReference
 import java.util.Date
 import javax.inject.Inject
 
-
-/**
- * Created by juanito on 12/27/2017.
- * Modified: 1/24/2018
- */
-
 private const val NOTIFICATION_ID = 12
 private const val TAG = "TimerService"
 

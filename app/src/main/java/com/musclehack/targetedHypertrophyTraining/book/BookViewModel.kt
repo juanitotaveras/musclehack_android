@@ -13,11 +13,6 @@ import com.musclehack.targetedHypertrophyTraining.utilities.PREF_LAST_READ_POSIT
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/**
- * Created by juanito on 1/9/2018.
- *
- */
-
 class BookViewModel @Inject constructor(
     private val bookRepository: BookRepository,
     private val sharedPreferences: SharedPreferences

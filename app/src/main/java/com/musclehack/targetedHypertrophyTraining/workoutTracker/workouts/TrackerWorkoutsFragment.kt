@@ -1,6 +1,5 @@
 package com.musclehack.targetedHypertrophyTraining.workoutTracker.workouts
 
-//import com.musclehack.targetedHypertrophyTraining.DatabaseHelper
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -24,12 +23,6 @@ import com.musclehack.targetedHypertrophyTraining.R
 import com.musclehack.targetedHypertrophyTraining.databinding.FragmentTrackerWorkoutsBinding
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
-
-/**
- * Author: Juanito Taveras
- * Created: 11/24/17
- * Modified: 11/24/17 11/25/17 1/25/18
- */
 
 class TrackerWorkoutsFragment : DaggerFragment() {
     @Inject

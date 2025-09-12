@@ -18,10 +18,6 @@ import com.musclehack.targetedHypertrophyTraining.utilities.KEY_EXERCISE_NAME
 import dagger.android.support.DaggerDialogFragment
 import javax.inject.Inject
 
-/**
- * Created by juanito on 1/3/2018.
- *
- */
 private const val CREATE_REQUEST = 4930
 
 class ChangeLogExerciseDialogFragment : DaggerDialogFragment(),

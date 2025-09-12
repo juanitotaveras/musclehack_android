@@ -69,19 +69,18 @@ class TrainingPagerFragment : DaggerFragment() {
     private lateinit var viewDataBinding: TrainingPagerBinding
     private var pausedTime: Int = 0
     private var killTimerBoxTask: KillTimerBoxTask? = null
-    private val isLoading = AtomicBoolean(true)
 
     private val args: TrainingPagerFragmentArgs by navArgs()
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel.setupTrainingPagerEvent.observe(
-            viewLifecycleOwner,
-            androidx.lifecycle.Observer { event ->
-                event.getContentIfNotHandled()?.let { trainingData ->
-                    setupPager(trainingData)
-                }
-            })
+            viewLifecycleOwner
+        ) { event ->
+            event.getContentIfNotHandled()?.let { trainingData ->
+                setupPager(trainingData)
+            }
+        }
 
         viewModel.requestDefocusEvent.observe(viewLifecycleOwner, androidx.lifecycle.Observer {
             hideSoftKeyboard(viewDataBinding.container.rootView)
@@ -473,17 +472,6 @@ class TrainingPagerFragment : DaggerFragment() {
             }
         }
         return super.onOptionsItemSelected(item)
-    }
-
-
-    fun onCustomExerciseAdded(event: CustomExerciseAddedEvent) {
-        val s = getString(R.string.custom_exercise_added_toast)
-        val toast = Toast.makeText(
-            activity, String.format(s, event.exerciseName),
-            Toast.LENGTH_LONG
-        )
-        toast.setGravity(Gravity.TOP, 0, 200)
-        toast.show()
     }
 
     private fun checkForPostNotificationsPermission() {
